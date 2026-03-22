@@ -1,0 +1,392 @@
+[
+  {
+    "objectId": "barnard68",
+    "displayName": "Barnard 68 (Ophiuchus Globule)",
+    "ra": 17.3772778,
+    "dec": -23.8261111111,
+    "constellation": null,
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "barnard72",
+    "displayName": "Barnard 72 (Snake Nebula)",
+    "ra": 17.3941667,
+    "dec": -23.695,
+    "constellation": null,
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "ic1805",
+    "displayName": "Heart Nebula",
+    "ra": 2.5448639,
+    "dec": 61.4568889,
+    "constellation": "Cassiopeia",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "ic410",
+    "displayName": "Tadpoles Nebula",
+    "ra": 5.3783333,
+    "dec": 33.3666667,
+    "constellation": "Auriga",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "ic434",
+    "displayName": "Horsehead Nebula",
+    "ra": 5.6835778,
+    "dec": -2.4537778,
+    "constellation": "Orion",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "ic443",
+    "displayName": "IC 443 (Jellyfish Nebula)",
+    "ra": 6.2770583,
+    "dec": 22.5316667,
+    "constellation": "Gemini",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "ic5146",
+    "displayName": "Cocoon Nebula",
+    "ra": 21.8913222,
+    "dec": 47.2669167,
+    "constellation": "Cygnus",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "jupiter",
+    "displayName": "Jupiter",
+    "ra": null,
+    "dec": null,
+    "constellation": null,
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "m1",
+    "displayName": "Crab Nebula",
+    "ra": 5.5755472,
+    "dec": 22.0144722,
+    "constellation": "Taurus",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "m101",
+    "displayName": "Pinwheel Galaxy",
+    "ra": 14.0534833,
+    "dec": 54.3489444,
+    "constellation": "Ursa Major",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "m13",
+    "displayName": "Hercules Cluster",
+    "ra": 16.6948972,
+    "dec": 36.4613056,
+    "constellation": "Hercules",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "m16",
+    "displayName": "Eagle Nebula",
+    "ra": 18.3133806,
+    "dec": -13.8072222,
+    "constellation": "Serpens Cauda",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "m20",
+    "displayName": "Trifid Nebula",
+    "ra": 18.0450306,
+    "dec": -22.9718889,
+    "constellation": "Sagittarius",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "m27",
+    "displayName": "Dumbbell Nebula",
+    "ra": 19.9934389,
+    "dec": 22.7210278,
+    "constellation": "Vulpecula",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "m3",
+    "displayName": "M3",
+    "ra": 13.7031194,
+    "dec": 28.3754444,
+    "constellation": "Canes Venatici",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "m31",
+    "displayName": "Andromeda Galaxy",
+    "ra": 0.7123194,
+    "dec": 41.2690556,
+    "constellation": "Andromeda",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "m42",
+    "displayName": "Orion Nebula",
+    "ra": 5.5879111,
+    "dec": -5.3896667,
+    "constellation": "Orion",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "m45",
+    "displayName": "Pleiades",
+    "ra": 3.7772222,
+    "dec": 24.1780555556,
+    "constellation": null,
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "m51",
+    "displayName": "Whirlpool Galaxy",
+    "ra": 13.497975,
+    "dec": 47.1951667,
+    "constellation": "Canes Venatici",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "m8",
+    "displayName": "Lagoon Nebula",
+    "ra": 18.0614639,
+    "dec": -24.3801667,
+    "constellation": "Sagittarius",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "m83",
+    "displayName": "Southern Pinwheel Galaxy",
+    "ra": 13.6169306,
+    "dec": -29.8654167,
+    "constellation": "Hydra",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "mars",
+    "displayName": "Mars",
+    "ra": null,
+    "dec": null,
+    "constellation": null,
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "moon",
+    "displayName": "Moon",
+    "ra": null,
+    "dec": null,
+    "constellation": null,
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "ngc1499",
+    "displayName": "California Nebula",
+    "ra": 4.0540056,
+    "dec": 36.3674722,
+    "constellation": "Perseus",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "ngc1977",
+    "displayName": "Running Man Nebula",
+    "ra": 5.5877222,
+    "dec": -4.8443333,
+    "constellation": "Orion",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "ngc2237",
+    "displayName": "Rosette Nebula",
+    "ra": 6.5151694,
+    "dec": 5.0491667,
+    "constellation": "Monoceros",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "ngc2264",
+    "displayName": "Cone Nebula",
+    "ra": 6.6828472,
+    "dec": 9.8954722,
+    "constellation": "Monoceros",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "ngc2359",
+    "displayName": "Thor's Helmet",
+    "ra": 7.3086056,
+    "dec": -13.2271944,
+    "constellation": "Canis Major",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "ngc2467",
+    "displayName": "Skull and Crossbones Nebula",
+    "ra": 7.873175,
+    "dec": -26.4433333,
+    "constellation": "Puppis",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "ngc281",
+    "displayName": "Pacman Nebula",
+    "ra": 0.8831528,
+    "dec": 56.6218889,
+    "constellation": "Cassiopeia",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "ngc6888",
+    "displayName": "Crescent Nebula",
+    "ra": 20.2018194,
+    "dec": 38.3549444,
+    "constellation": "Cygnus",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "ngc6960",
+    "displayName": "Western Veil Nebula",
+    "ra": 20.7661611,
+    "dec": 30.5951389,
+    "constellation": "Cygnus",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "ngc6979",
+    "displayName": "Pickering Triangle",
+    "ra": 20.8411139,
+    "dec": 32.0258889,
+    "constellation": "Cygnus",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "ngc6992",
+    "displayName": "Eastern Veil Nebula",
+    "ra": 20.9386306,
+    "dec": 31.74275,
+    "constellation": "Cygnus",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "ngc7293",
+    "displayName": "Helix Nebula",
+    "ra": 22.4940472,
+    "dec": -20.8373333,
+    "constellation": "Aquarius",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "ngc7380",
+    "displayName": "Wizard Nebula",
+    "ra": 22.7891694,
+    "dec": 58.1324167,
+    "constellation": "Cepheus",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "ngc7635",
+    "displayName": "NGC 7635 (Bubble Nebula)",
+    "ra": 23.346,
+    "dec": 61.2123611,
+    "constellation": "Cassiopeia",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "saturn",
+    "displayName": "Saturn",
+    "ra": null,
+    "dec": null,
+    "constellation": null,
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  },
+  {
+    "objectId": "venus",
+    "displayName": "Venus",
+    "ra": null,
+    "dec": null,
+    "constellation": null,
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null
+  }
+]
