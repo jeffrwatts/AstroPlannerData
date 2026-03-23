@@ -585,6 +585,19 @@
     "magnitude":9.05
   },
   {
+    "displayName":"Ghost of Jupiter",
+    "objectId":"ngc3242",
+    "ra":10.4128,
+    "dec":-18.6422222,
+    "type":"nebula",
+    "subType":"Planetary Nebula",
+    "constellation":"Hydra",
+    "recommended":true,
+    "angularSizeMajor":0.42,
+    "angularSizeMinor":null,
+    "magnitude":7.7
+  },
+  {
     "displayName":"NGC 1365 (Great Barred Spiral)",
     "objectId":"ngc1365",
     "ra":3.5601028,
