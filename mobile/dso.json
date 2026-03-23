@@ -456,16 +456,16 @@
   },
   {
     "displayName":"Elephant Trunk Nebula",
-    "objectId":"ic3196",
-    "ra":12.3573972,
-    "dec":11.7577778,
-    "type":"galaxy",
-    "subType":"Spiral Galaxy",
-    "constellation":"Virgo",
+    "objectId":"ic1396",
+    "ra":21.6493389,
+    "dec":57.4890556,
+    "type":"cluster",
+    "subType":"Open Cluster",
+    "constellation":"Cepheus",
     "recommended":true,
-    "angularSizeMajor":0.53,
-    "angularSizeMinor":0.41,
-    "magnitude":16.43
+    "angularSizeMajor":14.0,
+    "angularSizeMinor":4.0,
+    "magnitude":null
   },
   {
     "displayName":"Witch Head Nebula (IC 2118)",
