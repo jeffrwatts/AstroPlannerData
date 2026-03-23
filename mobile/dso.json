@@ -13,6 +13,19 @@
     "magnitude":3.7
   },
   {
+    "displayName":"Leo Triplet",
+    "objectId":"leotriplet",
+    "ra":11.3308667,
+    "dec":13.28,
+    "type":"galaxy",
+    "subType":"Galaxy Group",
+    "constellation":"Leo",
+    "recommended":true,
+    "angularSizeMajor":48.0,
+    "angularSizeMinor":30.0,
+    "magnitude":null
+  },
+  {
     "displayName":"Western Veil Nebula",
     "objectId":"ngc6960",
     "ra":20.7661611,
@@ -1456,7 +1469,7 @@
     "magnitude":8.52
   },
   {
-    "displayName":"Leo Triplet",
+    "displayName":"M65",
     "objectId":"m65",
     "ra":11.3155333,
     "dec":13.0923611,
@@ -1469,14 +1482,14 @@
     "magnitude":9.32
   },
   {
-    "displayName":"Leo Triplet",
+    "displayName":"M66",
     "objectId":"m66",
     "ra":11.3374889,
     "dec":12.9915278,
     "type":"galaxy",
     "subType":"Spiral Galaxy",
     "constellation":"Leo",
-    "recommended":true,
+    "recommended":false,
     "angularSizeMajor":10.28,
     "angularSizeMinor":4.61,
     "magnitude":8.92
