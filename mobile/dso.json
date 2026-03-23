@@ -455,6 +455,19 @@
     "magnitude":2.23
   },
   {
+    "displayName":"Elephant Trunk Nebula",
+    "objectId":"ic3196",
+    "ra":12.3573972,
+    "dec":11.7577778,
+    "type":"galaxy",
+    "subType":"Spiral Galaxy",
+    "constellation":"Virgo",
+    "recommended":true,
+    "angularSizeMajor":0.53,
+    "angularSizeMinor":0.41,
+    "magnitude":16.43
+  },
+  {
     "displayName":"Witch Head Nebula (IC 2118)",
     "objectId":"ic2118",
     "ra":5.0820667,
