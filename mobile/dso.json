@@ -26,6 +26,58 @@
     "magnitude":null
   },
   {
+    "displayName":"Hamburger Galaxy",
+    "objectId":"ngc3628",
+    "ra":11.3380472,
+    "dec":13.5896944,
+    "type":"galaxy",
+    "subType":"Barred Spiral Galaxy",
+    "constellation":"Leo",
+    "recommended":true,
+    "angularSizeMajor":11.04,
+    "angularSizeMinor":3.44,
+    "magnitude":9.45
+  },
+  {
+    "displayName":"The Hydra Cluster (Abell 1060)",
+    "objectId":"abell1060",
+    "ra":10.6118667,
+    "dec":-27.528,
+    "type":"galaxy",
+    "subType":"Galaxy Group",
+    "constellation":"Hydra",
+    "recommended":true,
+    "angularSizeMajor":120.0,
+    "angularSizeMinor":90.0,
+    "magnitude":null
+  },
+  {
+    "displayName":"Needle Galaxy",
+    "objectId":"ngc4565",
+    "ra":12.6057722,
+    "dec":25.9876667,
+    "type":"galaxy",
+    "subType":"Spiral Galaxy",
+    "constellation":"Coma Berenices",
+    "recommended":true,
+    "angularSizeMajor":16.75,
+    "angularSizeMinor":2.89,
+    "magnitude":10.86
+  },
+  {
+    "displayName":"NGC 5101",
+    "objectId":"ngc5101",
+    "ra":13.3628444,
+    "dec":-27.4305278,
+    "type":"galaxy",
+    "subType":"Lenticular Galaxy",
+    "constellation":"Hydra",
+    "recommended":true,
+    "angularSizeMajor":5.9,
+    "angularSizeMinor":5.52,
+    "magnitude":10.46
+  },
+  {
     "displayName":"Western Veil Nebula",
     "objectId":"ngc6960",
     "ra":20.7661611,
@@ -312,8 +364,8 @@
     "magnitude":7.1
   },
   {
-    "displayName":"Sh2-101 (Tulip Nebula)",
-    "objectId":"Sh2-101",
+    "displayName":"Tulip Nebula",
+    "objectId":"sh2-101",
     "ra":19.9986111,
     "dec":35.2766666667,
     "type":"nebula",
@@ -325,7 +377,7 @@
     "magnitude":null
   },
   {
-    "displayName":"NGC 7822 (Sh2-171)",
+    "displayName":"Question Mark Nebula",
     "objectId":"ngc7822",
     "ra":0.0598194,
     "dec":67.1616389,
@@ -338,7 +390,7 @@
     "magnitude":null
   },
   {
-    "displayName":"Sh2-157 (Lobster Claw Nebula)",
+    "displayName":"Lobster Claw Nebula",
     "objectId":"sh2-157",
     "ra":23.2677611,
     "dec":60.0335833333,
@@ -351,7 +403,7 @@
     "magnitude":null
   },
   {
-    "displayName":"Sh2-155 (Cave Nebula, Caldwell9)",
+    "displayName":"Cave Nebula (Caldwell9)",
     "objectId":"sh2-155",
     "ra":22.9516411,
     "dec":62.6359158569,
@@ -364,7 +416,7 @@
     "magnitude":null
   },
   {
-    "displayName":"Sh2-132 (Lion Nebula)",
+    "displayName":"Lion Nebula",
     "objectId":"sh2-132",
     "ra":22.3191665,
     "dec":56.0791213738,
@@ -377,7 +429,7 @@
     "magnitude":null
   },
   {
-    "displayName":"IC 2177 (Seagull Nebula)",
+    "displayName":"Seagull Nebula",
     "objectId":"ic2177",
     "ra":7.0769194,
     "dec":-10.4710556,
@@ -390,7 +442,7 @@
     "magnitude":null
   },
   {
-    "displayName":"IC 443 (Jellyfish Nebula)",
+    "displayName":"Jellyfish Nebula",
     "objectId":"ic443",
     "ra":6.2770583,
     "dec":22.5316667,
@@ -403,7 +455,7 @@
     "magnitude":12.0
   },
   {
-    "displayName":"Sh2-308 (Dolphin Head Nebula)",
+    "displayName":"Dolphin Head Nebula",
     "objectId":"sh2-308",
     "ra":6.9036233,
     "dec":-23.9283398111,
@@ -416,7 +468,7 @@
     "magnitude":null
   },
   {
-    "displayName":"NGC 7635 (Bubble Nebula)",
+    "displayName":"Bubble Nebula",
     "objectId":"ngc7635",
     "ra":23.346,
     "dec":61.2123611,
@@ -429,7 +481,7 @@
     "magnitude":11.0
   },
   {
-    "displayName":"IC 5070 (Pelican Nebula)",
+    "displayName":"Pelican Nebula",
     "objectId":"ic5070",
     "ra":20.8502,
     "dec":44.4015,
@@ -468,7 +520,7 @@
     "magnitude":null
   },
   {
-    "displayName":"Witch Head Nebula (IC 2118)",
+    "displayName":"Witch Head Nebula",
     "objectId":"ic2118",
     "ra":5.0820667,
     "dec":-7.2656389,
@@ -559,7 +611,7 @@
     "magnitude":null
   },
   {
-    "displayName":"Sh2-274 (Medusa Nebula)",
+    "displayName":"Medusa Nebula",
     "objectId":"sh2-274",
     "ra":7.484086,
     "dec":13.2468298764,
@@ -611,7 +663,7 @@
     "magnitude":7.7
   },
   {
-    "displayName":"NGC 1365 (Great Barred Spiral)",
+    "displayName":"Great Barred Spiral Galaxy",
     "objectId":"ngc1365",
     "ra":3.5601028,
     "dec":-36.1403889,
@@ -624,7 +676,7 @@
     "magnitude":10.1
   },
   {
-    "displayName":"Barnard 68 (Ophiuchus Globule)",
+    "displayName":"Ophiuchus Globule",
     "objectId":"barnard68",
     "ra":17.3772778,
     "dec":-23.8261111111,
@@ -637,7 +689,7 @@
     "magnitude":null
   },
   {
-    "displayName":"Barnard 72 (Snake Nebula)",
+    "displayName":"Snake Nebula",
     "objectId":"barnard72",
     "ra":17.3941667,
     "dec":-23.695,

@@ -1,7 +1,7 @@
 [
   {
     "objectId": "barnard68",
-    "displayName": "Barnard 68 (Ophiuchus Globule)",
+    "displayName": "Ophiuchus Globule",
     "ra": 17.3772778,
     "dec": -23.8261111111,
     "constellation": null,
@@ -12,7 +12,7 @@
   },
   {
     "objectId": "barnard72",
-    "displayName": "Barnard 72 (Snake Nebula)",
+    "displayName": "Snake Nebula",
     "ra": 17.3941667,
     "dec": -23.695,
     "constellation": null,
@@ -56,7 +56,7 @@
   },
   {
     "objectId": "ic443",
-    "displayName": "IC 443 (Jellyfish Nebula)",
+    "displayName": "Jellyfish Nebula",
     "ra": 6.2770583,
     "dec": 22.5316667,
     "constellation": "Gemini",
@@ -397,7 +397,7 @@
   },
   {
     "objectId": "ngc7635",
-    "displayName": "NGC 7635 (Bubble Nebula)",
+    "displayName": "Bubble Nebula",
     "ra": 23.346,
     "dec": 61.2123611,
     "constellation": "Cassiopeia",
