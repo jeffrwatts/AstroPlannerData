@@ -47,8 +47,8 @@
     "subType":"Galaxy Group",
     "constellation":"Hydra",
     "recommended":true,
-    "angularSizeMajor":120.0,
-    "angularSizeMinor":90.0,
+    "angularSizeMajor":30.0,
+    "angularSizeMinor":30.0,
     "magnitude":null
   },
   {
@@ -325,7 +325,7 @@
     "magnitude":6.5
   },
   {
-    "displayName":"Sh2-261 (Lower's Nebula)",
+    "displayName":"Lower's Nebula",
     "objectId":"sh2-261",
     "ra":6.1455556,
     "dec":15.675,
