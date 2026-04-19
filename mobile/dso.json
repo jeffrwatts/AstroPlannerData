@@ -918,7 +918,7 @@
     "subType":"Globular Cluster",
     "constellation":"Ophiuchus",
     "recommended":false,
-    "angularSizeMajor":null,
+    "angularSizeMajor":9.9,
     "angularSizeMinor":null,
     "magnitude":5.73
   },

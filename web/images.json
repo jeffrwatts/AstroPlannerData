@@ -185,7 +185,7 @@
     "filename": "m16-pillars-of-creation.jpg",
     "width": 4144,
     "height": 2822,
-    "sortOrder": 14,
+    "sortOrder": 15,
     "contextChart": "island-skies-astro/charts/m16-context"
   },
   {
@@ -206,7 +206,7 @@
     "filename": "m16.jpg",
     "width": 4134,
     "height": 2815,
-    "sortOrder": 13,
+    "sortOrder": 14,
     "contextChart": "island-skies-astro/charts/m16-context"
   },
   {
@@ -227,7 +227,7 @@
     "filename": "m20.jpg",
     "width": 4118,
     "height": 2791,
-    "sortOrder": 11,
+    "sortOrder": 12,
     "contextChart": "island-skies-astro/charts/m20-context"
   },
   {
@@ -479,7 +479,7 @@
     "filename": "ngc2237.jpg",
     "width": 5061,
     "height": 3379,
-    "sortOrder": 12,
+    "sortOrder": 13,
     "contextChart": "island-skies-astro/charts/ngc2237-context"
   },
   {
@@ -565,6 +565,27 @@
     "height": 2817,
     "sortOrder": null,
     "contextChart": "island-skies-astro/charts/ngc281-context"
+  },
+  {
+    "id": "ngc4565",
+    "title": "Needle Galaxy",
+    "category": "dso",
+    "objectId": "ngc4565",
+    "region": null,
+    "cloudinaryId": "island-skies-astro/dso/ngc4565",
+    "altText": "NGC 4565 - Needle Galaxy",
+    "objectName": "Needle Galaxy",
+    "catalogId": "NGC 4565",
+    "ra": 12.6057722,
+    "dec": 25.9876667,
+    "constellation": "Coma Berenices",
+    "objectType": "galaxy",
+    "objectSubType": "Spiral Galaxy",
+    "filename": "ngc4565.jpg",
+    "width": 4130,
+    "height": 2788,
+    "sortOrder": 11,
+    "contextChart": "island-skies-astro/charts/ngc4565-context"
   },
   {
     "id": "ngc6888",
