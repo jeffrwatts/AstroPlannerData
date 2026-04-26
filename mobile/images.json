@@ -231,6 +231,17 @@
     "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/m83.webp"
   },
   {
+    "objectId": "m97",
+    "displayName": "Owl Nebula",
+    "ra": 11.2465861,
+    "dec": 55.0190278,
+    "constellation": "Ursa Major",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null,
+    "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/m97.webp"
+  },
+  {
     "objectId": "mars",
     "displayName": "Mars",
     "ra": null,
@@ -287,7 +298,7 @@
   },
   {
     "objectId": "ngc2264",
-    "displayName": "Cone Nebula",
+    "displayName": "Christmas Tree Cluster & Cone Nebula",
     "ra": 6.6828472,
     "dec": 9.8954722,
     "constellation": "Monoceros",
