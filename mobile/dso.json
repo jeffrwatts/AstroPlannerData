@@ -715,6 +715,19 @@
     "magnitude":null
   },
   {
+    "displayName":"Carina Nebula",
+    "objectId":"ngc3372",
+    "ra":10.7523694,
+    "dec":-59.8666944,
+    "type":"nebula",
+    "subType":"HII Ionized region",
+    "constellation":"Carina",
+    "recommended":true,
+    "angularSizeMajor":120.0,
+    "angularSizeMinor":120.0,
+    "magnitude":3.0
+  },
+  {
     "displayName":"Snake Nebula",
     "objectId":"barnard72",
     "ra":17.3941667,
