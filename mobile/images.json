@@ -231,6 +231,17 @@
     "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/m83.webp"
   },
   {
+    "objectId": "m86",
+    "displayName": "M86 (Markarian's Chain)",
+    "ra": 12.4365944,
+    "dec": 12.9462222,
+    "constellation": "Virgo",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null,
+    "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/m86.webp"
+  },
+  {
     "objectId": "m97",
     "displayName": "Owl Nebula",
     "ra": 11.2465861,
@@ -341,6 +352,17 @@
     "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/ngc281.webp"
   },
   {
+    "objectId": "ngc3372",
+    "displayName": "Carina Nebula",
+    "ra": 10.7523694,
+    "dec": -59.8666944,
+    "constellation": "Carina",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null,
+    "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/ngc3372.webp"
+  },
+  {
     "objectId": "ngc4565",
     "displayName": "Needle Galaxy",
     "ra": 12.6057722,
@@ -427,6 +449,17 @@
     "thumbY": null,
     "thumbDim": null,
     "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/ngc7635.webp"
+  },
+  {
+    "objectId": "rhocomplex",
+    "displayName": "Rho Ophiuchi Complex",
+    "ra": 16.4264,
+    "dec": -23.45,
+    "constellation": "Ophiuchus",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null,
+    "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/rhocomplex.webp"
   },
   {
     "objectId": "saturn",
