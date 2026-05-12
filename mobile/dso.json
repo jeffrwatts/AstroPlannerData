@@ -26,6 +26,19 @@
     "magnitude":null
   },
   {
+    "displayName":"Markarian's Chain",
+    "objectId":"markarian",
+    "ra":12.4438667,
+    "dec":12.9367,
+    "type":"galaxy",
+    "subType":"Galaxy Group",
+    "constellation":"Virgo",
+    "recommended":true,
+    "angularSizeMajor":90.0,
+    "angularSizeMinor":30.0,
+    "magnitude":null
+  },
+  {
     "displayName":"Hamburger Galaxy",
     "objectId":"ngc3628",
     "ra":11.3380472,
@@ -1859,14 +1872,14 @@
     "magnitude":9.05
   },
   {
-    "displayName":"M86 (Markarian's Chain)",
+    "displayName":"M86",
     "objectId":"m86",
     "ra":12.4365944,
     "dec":12.9462222,
     "type":"galaxy",
     "subType":"Elliptical Galaxy",
     "constellation":"Virgo",
-    "recommended":true,
+    "recommended":false,
     "angularSizeMajor":11.53,
     "angularSizeMinor":8.43,
     "magnitude":8.86

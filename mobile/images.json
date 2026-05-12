@@ -231,17 +231,6 @@
     "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/m83.webp"
   },
   {
-    "objectId": "m86",
-    "displayName": "M86 (Markarian's Chain)",
-    "ra": 12.4365944,
-    "dec": 12.9462222,
-    "constellation": "Virgo",
-    "thumbX": null,
-    "thumbY": null,
-    "thumbDim": null,
-    "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/m86.webp"
-  },
-  {
     "objectId": "m97",
     "displayName": "Owl Nebula",
     "ra": 11.2465861,
@@ -251,6 +240,17 @@
     "thumbY": null,
     "thumbDim": null,
     "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/m97.webp"
+  },
+  {
+    "objectId": "markarian",
+    "displayName": "Markarian's Chain",
+    "ra": 12.4438667,
+    "dec": 12.9367,
+    "constellation": "Virgo",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null,
+    "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/markarian.webp"
   },
   {
     "objectId": "mars",

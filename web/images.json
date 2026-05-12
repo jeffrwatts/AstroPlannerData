@@ -185,7 +185,7 @@
     "filename": "m16-pillars-of-creation.jpg",
     "width": 4144,
     "height": 2822,
-    "sortOrder": 15,
+    "sortOrder": 16,
     "contextChart": "island-skies-astro/charts/m16-context"
   },
   {
@@ -206,7 +206,7 @@
     "filename": "m16.jpg",
     "width": 4134,
     "height": 2815,
-    "sortOrder": 14,
+    "sortOrder": 15,
     "contextChart": "island-skies-astro/charts/m16-context"
   },
   {
@@ -227,7 +227,7 @@
     "filename": "m20.jpg",
     "width": 4118,
     "height": 2791,
-    "sortOrder": 12,
+    "sortOrder": 13,
     "contextChart": "island-skies-astro/charts/m20-context"
   },
   {
@@ -374,7 +374,7 @@
     "filename": "m51.jpg",
     "width": 4109,
     "height": 2806,
-    "sortOrder": null,
+    "sortOrder": 17,
     "contextChart": "island-skies-astro/charts/m51-context"
   },
   {
@@ -500,7 +500,7 @@
     "filename": "ngc2237.jpg",
     "width": 5061,
     "height": 3379,
-    "sortOrder": 13,
+    "sortOrder": 14,
     "contextChart": "island-skies-astro/charts/ngc2237-context"
   },
   {
@@ -840,25 +840,25 @@
     "contextChart": "island-skies-astro/charts/barnard72-context"
   },
   {
-    "id": "m86-markovianchain",
-    "title": "M86 (Markarian's Chain)",
+    "id": "markarian",
+    "title": "Markarian's Chain",
     "category": "dso",
-    "objectId": "m86",
+    "objectId": "markarian",
     "region": null,
-    "cloudinaryId": "island-skies-astro/dso/m86-markovianchain",
-    "altText": "M 86 - M86 (Markarian's Chain)",
-    "objectName": "M86 (Markarian's Chain)",
-    "catalogId": "M 86",
-    "ra": 12.4365944,
-    "dec": 12.9462222,
+    "cloudinaryId": "island-skies-astro/dso/markarian",
+    "altText": "markarian - Markarian's Chain",
+    "objectName": "Markarian's Chain",
+    "catalogId": "markarian",
+    "ra": 12.4438667,
+    "dec": 12.9367,
     "constellation": "Virgo",
     "objectType": "galaxy",
-    "objectSubType": "Elliptical Galaxy",
-    "filename": "m86-markovianchain.jpg",
-    "width": 4163,
-    "height": 3295,
-    "sortOrder": null,
-    "contextChart": "island-skies-astro/charts/m86-context"
+    "objectSubType": "Galaxy Group",
+    "filename": "markarian.jpg",
+    "width": 6500,
+    "height": 4705,
+    "sortOrder": 18,
+    "contextChart": "island-skies-astro/charts/markarian-context"
   },
   {
     "id": "rhocomplex",
@@ -878,7 +878,7 @@
     "filename": "rhocomplex.jpg",
     "width": 6239,
     "height": 4169,
-    "sortOrder": null,
+    "sortOrder": 12,
     "contextChart": "island-skies-astro/charts/rhocomplex-context"
   },
   {
