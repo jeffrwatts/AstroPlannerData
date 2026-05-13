@@ -65,7 +65,7 @@
     "magnitude":null
   },
   {
-    "displayName":"NGC5363\/5364 Group",
+    "displayName":"NGC 5363\/5364 Group",
     "objectId":"ngc5363",
     "ra":13.9353361,
     "dec":5.2547778,
@@ -89,6 +89,19 @@
     "angularSizeMajor":null,
     "angularSizeMinor":null,
     "magnitude":null
+  },
+  {
+    "displayName":"NGC 3718\/3729 Group",
+    "objectId":"ngc3718",
+    "ra":11.5430139,
+    "dec":53.0679167,
+    "type":"galaxy",
+    "subType":"Spiral Galaxy",
+    "constellation":"Ursa Major",
+    "recommended":true,
+    "angularSizeMajor":4.7,
+    "angularSizeMinor":2.34,
+    "magnitude":10.7
   },
   {
     "displayName":"Needle Galaxy",
@@ -777,6 +790,19 @@
     "recommended":true,
     "angularSizeMajor":270.0,
     "angularSizeMinor":270.0,
+    "magnitude":null
+  },
+  {
+    "displayName":"Seahorse Nebula",
+    "objectId":"ldn1082",
+    "ra":20.8516667,
+    "dec":60.1833333333,
+    "type":"nebula",
+    "subType":"Dark Nebula",
+    "constellation":"Cepheus",
+    "recommended":true,
+    "angularSizeMajor":null,
+    "angularSizeMinor":null,
     "magnitude":null
   },
   {
