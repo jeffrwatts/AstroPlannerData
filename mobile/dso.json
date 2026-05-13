@@ -65,7 +65,20 @@
     "magnitude":null
   },
   {
-    "displayName":"NGC 5426 and NGC 5427",
+    "displayName":"NGC5363\/5364 Group",
+    "objectId":"ngc5363",
+    "ra":13.9353361,
+    "dec":5.2547778,
+    "type":"galaxy",
+    "subType":"Lenticular Galaxy",
+    "constellation":"Virgo",
+    "recommended":true,
+    "angularSizeMajor":4.17,
+    "angularSizeMinor":2.75,
+    "magnitude":10.21
+  },
+  {
+    "displayName":"NGC 5426\/5427 Group",
     "objectId":"arp271",
     "ra":14.05707,
     "dec":-6.04996,
@@ -826,7 +839,7 @@
     "type":"cluster",
     "subType":"Globular Cluster",
     "constellation":"Serpens Caput",
-    "recommended":true,
+    "recommended":false,
     "angularSizeMajor":15.0,
     "angularSizeMinor":null,
     "magnitude":5.95
@@ -891,7 +904,7 @@
     "type":"cluster",
     "subType":"Globular Cluster",
     "constellation":"Ophiuchus",
-    "recommended":true,
+    "recommended":false,
     "angularSizeMajor":9.3,
     "angularSizeMinor":null,
     "magnitude":4.98
@@ -904,7 +917,7 @@
     "type":"cluster",
     "subType":"Open Cluster",
     "constellation":"Scutum",
-    "recommended":true,
+    "recommended":false,
     "angularSizeMajor":9.0,
     "angularSizeMinor":null,
     "magnitude":5.8
@@ -917,7 +930,7 @@
     "type":"cluster",
     "subType":"Globular Cluster",
     "constellation":"Ophiuchus",
-    "recommended":true,
+    "recommended":false,
     "angularSizeMajor":11.1,
     "angularSizeMinor":null,
     "magnitude":6.07
@@ -1437,7 +1450,7 @@
     "type":"cluster",
     "subType":"Open Cluster",
     "constellation":"Cassiopeia",
-    "recommended":true,
+    "recommended":false,
     "angularSizeMajor":9.9,
     "angularSizeMinor":null,
     "magnitude":6.9
@@ -1450,7 +1463,7 @@
     "type":"cluster",
     "subType":"Globular Cluster",
     "constellation":"Coma Berenices",
-    "recommended":true,
+    "recommended":false,
     "angularSizeMajor":9.0,
     "angularSizeMinor":null,
     "magnitude":7.79
@@ -1593,7 +1606,7 @@
     "type":"galaxy",
     "subType":"Spiral Galaxy",
     "constellation":"Coma Berenices",
-    "recommended":false,
+    "recommended":true,
     "angularSizeMajor":10.52,
     "angularSizeMinor":5.33,
     "magnitude":8.52
@@ -1905,7 +1918,7 @@
     "type":"galaxy",
     "subType":"Spiral Galaxy",
     "constellation":"Coma Berenices",
-    "recommended":false,
+    "recommended":true,
     "angularSizeMajor":8.65,
     "angularSizeMinor":4.38,
     "magnitude":10.33
