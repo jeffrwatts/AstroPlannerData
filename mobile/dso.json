@@ -65,6 +65,19 @@
     "magnitude":null
   },
   {
+    "displayName":"NGC 3166\/3169 Group",
+    "objectId":"ngc3166",
+    "ra":10.2293333,
+    "dec":3.4247222,
+    "type":"galaxy",
+    "subType":"Lenticular Galaxy",
+    "constellation":"Sextans",
+    "recommended":true,
+    "angularSizeMajor":4.5,
+    "angularSizeMinor":2.84,
+    "magnitude":10.62
+  },
+  {
     "displayName":"NGC 5363\/5364 Group",
     "objectId":"ngc5363",
     "ra":13.9353361,

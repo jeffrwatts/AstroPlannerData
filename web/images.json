@@ -899,7 +899,8 @@
     "filename": "jupiter.jpg",
     "width": 900,
     "height": 643,
-    "sortOrder": null
+    "sortOrder": null,
+    "contextChart": null
   },
   {
     "id": "jupiter-grs",
@@ -919,7 +920,8 @@
     "filename": "jupiter-grs.jpg",
     "width": 900,
     "height": 643,
-    "sortOrder": null
+    "sortOrder": null,
+    "contextChart": null
   },
   {
     "id": "jupiter-grs-io",
@@ -939,7 +941,8 @@
     "filename": "jupiter-grs-io.jpg",
     "width": 1024,
     "height": 768,
-    "sortOrder": null
+    "sortOrder": null,
+    "contextChart": null
   },
   {
     "id": "jupiter-grs-io-shadow",
@@ -959,7 +962,8 @@
     "filename": "jupiter-grs-io-shadow.jpg",
     "width": 900,
     "height": 900,
-    "sortOrder": null
+    "sortOrder": null,
+    "contextChart": null
   },
   {
     "id": "jupiter-grs-io-shadow-europa",
@@ -979,7 +983,8 @@
     "filename": "jupiter-grs-io-shadow-europa.jpg",
     "width": 1256,
     "height": 706,
-    "sortOrder": null
+    "sortOrder": null,
+    "contextChart": null
   },
   {
     "id": "mars",
@@ -999,7 +1004,8 @@
     "filename": "mars.jpg",
     "width": 900,
     "height": 643,
-    "sortOrder": null
+    "sortOrder": null,
+    "contextChart": null
   },
   {
     "id": "saturn",
@@ -1019,7 +1025,8 @@
     "filename": "saturn.jpg",
     "width": 900,
     "height": 643,
-    "sortOrder": null
+    "sortOrder": null,
+    "contextChart": null
   },
   {
     "id": "saturn-titan",
@@ -1039,7 +1046,8 @@
     "filename": "saturn-titan.jpg",
     "width": 600,
     "height": 429,
-    "sortOrder": null
+    "sortOrder": null,
+    "contextChart": null
   },
   {
     "id": "venus",
@@ -1059,7 +1067,8 @@
     "filename": "venus.jpg",
     "width": 600,
     "height": 429,
-    "sortOrder": null
+    "sortOrder": null,
+    "contextChart": null
   },
   {
     "id": "moon-eclipse",
@@ -1079,7 +1088,8 @@
     "filename": "moon-eclipse.jpg",
     "width": 4608,
     "height": 2888,
-    "sortOrder": null
+    "sortOrder": null,
+    "contextChart": null
   },
   {
     "id": "moon-full",
@@ -1099,7 +1109,8 @@
     "filename": "moon-full.jpg",
     "width": 3040,
     "height": 2750,
-    "sortOrder": null
+    "sortOrder": null,
+    "contextChart": null
   },
   {
     "id": "moon-plato",
@@ -1119,7 +1130,8 @@
     "filename": "moon-plato.jpg",
     "width": 3800,
     "height": 2070,
-    "sortOrder": null
+    "sortOrder": null,
+    "contextChart": null
   },
   {
     "id": "moon-tycho",
@@ -1139,7 +1151,8 @@
     "filename": "moon-tycho.jpg",
     "width": 3800,
     "height": 2080,
-    "sortOrder": null
+    "sortOrder": null,
+    "contextChart": null
   },
   {
     "id": "c2025a6lemon",
@@ -1159,6 +1172,7 @@
     "filename": "c2025a6lemon.jpg",
     "width": 4144,
     "height": 2822,
-    "sortOrder": null
+    "sortOrder": null,
+    "contextChart": null
   }
 ]
