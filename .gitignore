@@ -4,3 +4,6 @@ __pycache__/
 *.pyc
 .DS_Store
 .env
+web/dso/
+web/solar-system/
+web/charts/
