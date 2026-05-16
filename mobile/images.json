@@ -220,6 +220,17 @@
     "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/m8.webp"
   },
   {
+    "objectId": "m81m82",
+    "displayName": "Bode's and Cigar Galaxies",
+    "ra": 9.9330533,
+    "dec": 69.3292,
+    "constellation": "Ursa Major",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null,
+    "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/m81m82.webp"
+  },
+  {
     "objectId": "m83",
     "displayName": "Southern Pinwheel Galaxy",
     "ra": 13.6169306,

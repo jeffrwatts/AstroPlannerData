@@ -399,6 +399,27 @@
     "contextChart": "island-skies-astro/charts/m8-context"
   },
   {
+    "id": "m81m82",
+    "title": "Bode's and Cigar Galaxies",
+    "category": "dso",
+    "objectId": "m81m82",
+    "region": null,
+    "cloudinaryId": "island-skies-astro/dso/m81m82",
+    "altText": "m81m82 - Bode's and Cigar Galaxies",
+    "objectName": "Bode's and Cigar Galaxies",
+    "catalogId": "m81m82",
+    "ra": 9.9330533,
+    "dec": 69.3292,
+    "constellation": "Ursa Major",
+    "objectType": "galaxy",
+    "objectSubType": "Galaxy Group",
+    "filename": "m81m82.jpg",
+    "width": 4137,
+    "height": 2815,
+    "sortOrder": null,
+    "contextChart": "island-skies-astro/charts/m81m82-context"
+  },
+  {
     "id": "m83",
     "title": "Southern Pinwheel Galaxy",
     "category": "dso",
@@ -519,8 +540,8 @@
     "objectType": "nebula",
     "objectSubType": "Emission Nebula",
     "filename": "ngc2264.jpg",
-    "width": 3836,
-    "height": 2398,
+    "width": 4160,
+    "height": 2498,
     "sortOrder": 3,
     "contextChart": "island-skies-astro/charts/ngc2264-context"
   },

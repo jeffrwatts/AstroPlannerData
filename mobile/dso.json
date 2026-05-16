@@ -39,6 +39,19 @@
     "magnitude":null
   },
   {
+    "displayName":"Bode's and Cigar Galaxies",
+    "objectId":"m81m82",
+    "ra":9.9330533,
+    "dec":69.3292,
+    "type":"galaxy",
+    "subType":"Galaxy Group",
+    "constellation":"Ursa Major",
+    "recommended":true,
+    "angularSizeMajor":52.0,
+    "angularSizeMinor":35.0,
+    "magnitude":null
+  },
+  {
     "displayName":"Hamburger Galaxy",
     "objectId":"ngc3628",
     "ra":11.3380472,
