@@ -88,6 +88,17 @@
     "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/jupiter.webp"
   },
   {
+    "objectId": "leotriplet",
+    "displayName": "Leo Triplet",
+    "ra": 11.3308667,
+    "dec": 13.28,
+    "constellation": "Leo",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null,
+    "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/leotriplet.webp"
+  },
+  {
     "objectId": "m1",
     "displayName": "Crab Nebula",
     "ra": 5.5755472,
@@ -130,6 +141,17 @@
     "thumbY": null,
     "thumbDim": null,
     "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/m16.webp"
+  },
+  {
+    "objectId": "m17",
+    "displayName": "Omega Nebula",
+    "ra": 18.3464194,
+    "dec": -16.1715278,
+    "constellation": "Sagittarius",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null,
+    "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/m17.webp"
   },
   {
     "objectId": "m20",
@@ -189,8 +211,8 @@
   {
     "objectId": "m45",
     "displayName": "Pleiades",
-    "ra": 3.7772222,
-    "dec": 24.1780555556,
+    "ra": 3.7733889,
+    "dec": 24.1138888889,
     "constellation": "Taurus",
     "thumbX": null,
     "thumbY": null,
@@ -462,7 +484,7 @@
     "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/ngc7635.webp"
   },
   {
-    "objectId": "rhocomplex",
+    "objectId": "rhoophiuchi",
     "displayName": "Rho Ophiuchi Complex",
     "ra": 16.4264,
     "dec": -23.45,
@@ -470,7 +492,7 @@
     "thumbX": null,
     "thumbY": null,
     "thumbDim": null,
-    "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/rhocomplex.webp"
+    "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/rhoophiuchi.webp"
   },
   {
     "objectId": "saturn",

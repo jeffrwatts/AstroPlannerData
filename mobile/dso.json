@@ -807,7 +807,7 @@
   },
   {
     "displayName":"Rho Ophiuchi Complex",
-    "objectId":"rhocomplex",
+    "objectId":"rhoophiuchi",
     "ra":16.4264,
     "dec":-23.45,
     "type":"nebula",
@@ -1406,8 +1406,8 @@
   {
     "displayName":"Pleiades",
     "objectId":"m45",
-    "ra":3.7772222,
-    "dec":24.1780555556,
+    "ra":3.7733889,
+    "dec":24.1138888889,
     "type":"nebula",
     "subType":"Reflection Nebula",
     "constellation":"Taurus",
