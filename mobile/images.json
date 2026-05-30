@@ -506,6 +506,17 @@
     "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/saturn.webp"
   },
   {
+    "objectId": "sun",
+    "displayName": "Sun",
+    "ra": null,
+    "dec": null,
+    "constellation": null,
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null,
+    "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/sun.webp"
+  },
+  {
     "objectId": "venus",
     "displayName": "Venus",
     "ra": null,

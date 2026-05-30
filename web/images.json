@@ -1197,6 +1197,27 @@
     "contextChart": null
   },
   {
+    "id": "moon-theocyrcath",
+    "title": "Moon",
+    "category": "solar-system",
+    "objectId": "moon",
+    "region": "theocyrcath",
+    "cloudinaryId": "island-skies-astro/solarsystem/moon-theocyrcath",
+    "altText": "Moon",
+    "objectName": "Moon",
+    "catalogId": null,
+    "ra": null,
+    "dec": null,
+    "constellation": null,
+    "objectType": null,
+    "objectSubType": null,
+    "filename": "moon-theocyrcath.jpg",
+    "width": 1858,
+    "height": 1051,
+    "sortOrder": null,
+    "contextChart": null
+  },
+  {
     "id": "moon-tycho",
     "title": "Moon",
     "category": "solar-system",
@@ -1218,6 +1239,27 @@
     "contextChart": null
   },
   {
+    "id": "sun-full",
+    "title": "Sun",
+    "category": "solar-system",
+    "objectId": "sun",
+    "region": "full",
+    "cloudinaryId": "island-skies-astro/solarsystem/sun-full",
+    "altText": "Sun",
+    "objectName": "Sun",
+    "catalogId": null,
+    "ra": null,
+    "dec": null,
+    "constellation": null,
+    "objectType": null,
+    "objectSubType": null,
+    "filename": "sun-full.jpg",
+    "width": 520,
+    "height": 565,
+    "sortOrder": null,
+    "contextChart": null
+  },
+  {
     "id": "c2025a6lemon",
     "title": "C2025A6Lemon",
     "category": "solar-system",
@@ -1233,8 +1275,8 @@
     "objectType": null,
     "objectSubType": null,
     "filename": "c2025a6lemon.jpg",
-    "width": 4144,
-    "height": 2822,
+    "width": 3586,
+    "height": 2493,
     "sortOrder": null,
     "contextChart": null
   }

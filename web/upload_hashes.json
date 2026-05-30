@@ -58,7 +58,7 @@
   "solar-system/moon-full": "899794f2149dbf69b2442614c107cfc2",
   "solar-system/moon-plato": "62d55973b4f41d24925d58091a407fb7",
   "solar-system/moon-tycho": "da8055cf0153199f1d22f00d4785b6c6",
-  "solar-system/c2025a6lemon": "1cf5a1d00f9d51801a76819daab8bc68",
+  "solar-system/c2025a6lemon": "70fa496ec29aac53fb6a47879c68298a",
   "charts/barnard68-context": "baf8cf0c8d22bf5adf0716c7775608b4",
   "charts/barnard72-context": "9ce4f2369a4a30696aea4ad0b2198ac0",
   "charts/ic1805-context": "357a3603ee3d7e9aff8d7b80c151ec19",
@@ -102,7 +102,7 @@
   "charts/rhocomplex-context": "7b087ebb4a6c72cf3dd5ceb15210b92d",
   "dso/m81m82": "aab93f93b0ee8303a84587c9133a9689",
   "charts/m81m82-context": "97a06ca2955e1b7f2f34e67808ef3ccf",
-  "dso/m17": "23cd208bfe564181487428fed00849e9",
+  "dso/m17": "0c21bf0eb88b3638c0dda8688134c6d5",
   "dso/leotriplet": "a576708bf8b58742789130e8dfd3a837",
   "dso/rhoophiuchi": "65968697b20e4b2d3c4ec20eb7ea43dc",
   "chartgen/barnard68": "7706559b9ae956db0836b32da092c6f0",
@@ -150,5 +150,7 @@
   "chartgen/rhoophiuchi": "4892f698bfafceb8c0d28139443529ad",
   "charts/leotriplet-context": "a03b0735349cab9f226768a530c69e25",
   "charts/m17-context": "d3c6b7f3741ab6c521aa89e148977736",
-  "charts/rhoophiuchi-context": "7b087ebb4a6c72cf3dd5ceb15210b92d"
+  "charts/rhoophiuchi-context": "7b087ebb4a6c72cf3dd5ceb15210b92d",
+  "solar-system/moon-theocyrcath": "16f9d6b67309a49640383226183d5b9b",
+  "solar-system/sun-full": "651fb37d14a1da1a05dee955c46f9e73"
 }
