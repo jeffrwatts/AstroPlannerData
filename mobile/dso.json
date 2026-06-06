@@ -91,17 +91,17 @@
     "magnitude":null
   },
   {
-    "displayName":"Whale Galaxy",
-    "objectId":"ngc4631",
-    "ra":12.702225,
-    "dec":32.5415,
+    "displayName":"Whale (NGC 4631) & Hockey Stick (NGC 4656)",
+    "objectId":"whalehockey",
+    "ra":12.715,
+    "dec":32.349,
     "type":"galaxy",
-    "subType":"Barred Spiral Galaxy",
+    "subType":"Galaxy Group",
     "constellation":"Canes Venatici",
     "recommended":true,
-    "angularSizeMajor":14.45,
-    "angularSizeMinor":2.2,
-    "magnitude":9.24
+    "angularSizeMajor":86.0,
+    "angularSizeMinor":58.0,
+    "magnitude":null
   },
   {
     "displayName":"NGC 3166\/3169 Group",
