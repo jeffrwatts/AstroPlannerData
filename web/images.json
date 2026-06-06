@@ -227,7 +227,7 @@
     "filename": "m17.jpg",
     "width": 4133,
     "height": 2800,
-    "sortOrder": 8,
+    "sortOrder": 2,
     "contextChart": "island-skies-astro/charts/m17-context"
   },
   {
@@ -351,8 +351,8 @@
     "objectType": "nebula",
     "objectSubType": "Emission Nebula",
     "filename": "m42-2.jpg",
-    "width": 4470,
-    "height": 2980,
+    "width": 6223,
+    "height": 4148,
     "sortOrder": 10,
     "contextChart": "island-skies-astro/charts/m42-context"
   },
@@ -393,8 +393,8 @@
     "objectType": "galaxy",
     "objectSubType": "Spiral Galaxy",
     "filename": "m51.jpg",
-    "width": 4109,
-    "height": 2806,
+    "width": 4144,
+    "height": 2822,
     "sortOrder": 18,
     "contextChart": "island-skies-astro/charts/m51-context"
   },
@@ -500,7 +500,7 @@
     "filename": "ngc1499.jpg",
     "width": 6232,
     "height": 4144,
-    "sortOrder": 2,
+    "sortOrder": 8,
     "contextChart": "island-skies-astro/charts/ngc1499-context"
   },
   {

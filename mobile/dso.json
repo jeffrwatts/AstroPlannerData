@@ -78,6 +78,32 @@
     "magnitude":null
   },
   {
+    "displayName":"M106 with NGC 4217",
+    "objectId":"m106ngc4217",
+    "ra":12.2883333,
+    "dec":47.1939,
+    "type":"galaxy",
+    "subType":"Galaxy Group",
+    "constellation":"Canes Venatici",
+    "recommended":true,
+    "angularSizeMajor":86.0,
+    "angularSizeMinor":58.0,
+    "magnitude":null
+  },
+  {
+    "displayName":"Whale Galaxy",
+    "objectId":"ngc4631",
+    "ra":12.702225,
+    "dec":32.5415,
+    "type":"galaxy",
+    "subType":"Barred Spiral Galaxy",
+    "constellation":"Canes Venatici",
+    "recommended":true,
+    "angularSizeMajor":14.45,
+    "angularSizeMinor":2.2,
+    "magnitude":9.24
+  },
+  {
     "displayName":"NGC 3166\/3169 Group",
     "objectId":"ngc3166",
     "ra":10.2293333,
@@ -102,32 +128,6 @@
     "angularSizeMajor":4.17,
     "angularSizeMinor":2.75,
     "magnitude":10.21
-  },
-  {
-    "displayName":"NGC 5426\/5427 Group",
-    "objectId":"arp271",
-    "ra":14.05707,
-    "dec":-6.04996,
-    "type":"galaxy",
-    "subType":"Interacting Galaxies",
-    "constellation":"Virgo",
-    "recommended":true,
-    "angularSizeMajor":null,
-    "angularSizeMinor":null,
-    "magnitude":null
-  },
-  {
-    "displayName":"NGC 3718\/3729 Group",
-    "objectId":"ngc3718",
-    "ra":11.5430139,
-    "dec":53.0679167,
-    "type":"galaxy",
-    "subType":"Spiral Galaxy",
-    "constellation":"Ursa Major",
-    "recommended":true,
-    "angularSizeMajor":4.7,
-    "angularSizeMinor":2.34,
-    "magnitude":10.7
   },
   {
     "displayName":"Needle Galaxy",
@@ -2204,7 +2204,7 @@
     "type":"galaxy",
     "subType":"Spiral Galaxy",
     "constellation":"Canes Venatici",
-    "recommended":true,
+    "recommended":false,
     "angularSizeMajor":16.98,
     "angularSizeMinor":7.24,
     "magnitude":9.29
