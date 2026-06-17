@@ -11,8 +11,8 @@
   "dso/m1": "f13f87699445e797d4861d6429cd92bd",
   "dso/m101": "7d402d8f53476b0af046513dba89991d",
   "dso/m13": "a547e6f3d491108ef34e9907baecefe1",
-  "dso/m16-pillars-of-creation": "c342eede00d0459348b70dcc688efffa",
-  "dso/m16": "437c22da46e3570e47b4035c80927a69",
+  "dso/m16-pillars-of-creation": "8e9d00c1b83dcedd231ed1c262e099ab",
+  "dso/m16": "f807204153e1e7a31c55db41c06dcaf2",
   "dso/m20": "1964f038262a534dd5e5e6860841752e",
   "dso/m27": "b7207a3dc74770d47ac7f5072b9dc45b",
   "dso/m3": "5a7714f2b06ee4af894e802466c746b8",
@@ -104,7 +104,7 @@
   "charts/m81m82-context": "97a06ca2955e1b7f2f34e67808ef3ccf",
   "dso/m17": "3c6bcbe5f8cd214068a5e1079e4a710f",
   "dso/leotriplet": "a576708bf8b58742789130e8dfd3a837",
-  "dso/rhoophiuchi": "65968697b20e4b2d3c4ec20eb7ea43dc",
+  "dso/rhoophiuchi": "6edfbc20e4d4820026916b81fb71a6e3",
   "chartgen/barnard68": "7706559b9ae956db0836b32da092c6f0",
   "chartgen/barnard72": "d70532e3641595bfca242e9655f57f1c",
   "chartgen/ic1805": "1eb25d415c176173b1997d891786207e",
@@ -152,5 +152,7 @@
   "charts/m17-context": "d3c6b7f3741ab6c521aa89e148977736",
   "charts/rhoophiuchi-context": "7b087ebb4a6c72cf3dd5ceb15210b92d",
   "solar-system/moon-theocyrcath": "16f9d6b67309a49640383226183d5b9b",
-  "solar-system/sun-full": "651fb37d14a1da1a05dee955c46f9e73"
+  "solar-system/sun-full": "651fb37d14a1da1a05dee955c46f9e73",
+  "dso/m97-2": "c10f43526cc1cdb971e45e6c4d40aaeb",
+  "dso/m8m20": "8d2c34035bc7e2bcfabf1797f184f0b1"
 }

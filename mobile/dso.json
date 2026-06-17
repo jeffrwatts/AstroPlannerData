@@ -156,6 +156,19 @@
     "magnitude":10.46
   },
   {
+    "displayName":"Omega Centauri",
+    "objectId":"ngc5139",
+    "ra":13.4460806,
+    "dec":-47.4768611,
+    "type":"cluster",
+    "subType":"Globular Cluster",
+    "constellation":"Centaurus",
+    "recommended":true,
+    "angularSizeMajor":27.0,
+    "angularSizeMinor":null,
+    "magnitude":5.33
+  },
+  {
     "displayName":"Western Veil Nebula",
     "objectId":"ngc6960",
     "ra":20.7661611,

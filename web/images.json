@@ -183,9 +183,9 @@
     "objectType": "nebula",
     "objectSubType": "Emission Nebula",
     "filename": "m16-pillars-of-creation.jpg",
-    "width": 4144,
-    "height": 2822,
-    "sortOrder": 17,
+    "width": 3610,
+    "height": 2612,
+    "sortOrder": 10,
     "contextChart": "island-skies-astro/charts/m16-context"
   },
   {
@@ -204,9 +204,9 @@
     "objectType": "nebula",
     "objectSubType": "Emission Nebula",
     "filename": "m16.jpg",
-    "width": 4134,
-    "height": 2815,
-    "sortOrder": 16,
+    "width": 4130,
+    "height": 2789,
+    "sortOrder": 9,
     "contextChart": "island-skies-astro/charts/m16-context"
   },
   {
@@ -248,7 +248,7 @@
     "filename": "m20.jpg",
     "width": 4118,
     "height": 2791,
-    "sortOrder": 14,
+    "sortOrder": 17,
     "contextChart": "island-skies-astro/charts/m20-context"
   },
   {
@@ -311,7 +311,7 @@
     "filename": "m31.jpg",
     "width": 6242,
     "height": 4173,
-    "sortOrder": 12,
+    "sortOrder": 15,
     "contextChart": "island-skies-astro/charts/m31-context"
   },
   {
@@ -332,7 +332,7 @@
     "filename": "m42.jpg",
     "width": 4130,
     "height": 2800,
-    "sortOrder": 11,
+    "sortOrder": 14,
     "contextChart": "island-skies-astro/charts/m42-context"
   },
   {
@@ -353,7 +353,7 @@
     "filename": "m42-2.jpg",
     "width": 6223,
     "height": 4148,
-    "sortOrder": 10,
+    "sortOrder": 13,
     "contextChart": "island-skies-astro/charts/m42-context"
   },
   {
@@ -374,7 +374,7 @@
     "filename": "m45.jpg",
     "width": 4415,
     "height": 2948,
-    "sortOrder": 9,
+    "sortOrder": 12,
     "contextChart": "island-skies-astro/charts/m45-context"
   },
   {
@@ -395,7 +395,7 @@
     "filename": "m51.jpg",
     "width": 4144,
     "height": 2822,
-    "sortOrder": 18,
+    "sortOrder": 8,
     "contextChart": "island-skies-astro/charts/m51-context"
   },
   {
@@ -500,7 +500,7 @@
     "filename": "ngc1499.jpg",
     "width": 6232,
     "height": 4144,
-    "sortOrder": 8,
+    "sortOrder": 11,
     "contextChart": "island-skies-astro/charts/ngc1499-context"
   },
   {
@@ -542,7 +542,7 @@
     "filename": "ngc2237.jpg",
     "width": 5061,
     "height": 3379,
-    "sortOrder": 15,
+    "sortOrder": 18,
     "contextChart": "island-skies-astro/charts/ngc2237-context"
   },
   {
@@ -668,7 +668,7 @@
     "filename": "ngc4565.jpg",
     "width": 4130,
     "height": 2788,
-    "sortOrder": 13,
+    "sortOrder": 16,
     "contextChart": "island-skies-astro/charts/ngc4565-context"
   },
   {
@@ -903,6 +903,27 @@
     "contextChart": "island-skies-astro/charts/leotriplet-context"
   },
   {
+    "id": "m8m20",
+    "title": "M8M20",
+    "category": "dso",
+    "objectId": "m8m20",
+    "region": null,
+    "cloudinaryId": "island-skies-astro/dso/m8m20",
+    "altText": "m8m20 - M8M20",
+    "objectName": "M8M20",
+    "catalogId": "m8m20",
+    "ra": null,
+    "dec": null,
+    "constellation": null,
+    "objectType": null,
+    "objectSubType": null,
+    "filename": "m8m20.jpg",
+    "width": 6202,
+    "height": 4104,
+    "sortOrder": null,
+    "contextChart": null
+  },
+  {
     "id": "markarian",
     "title": "Markarian's Chain",
     "category": "dso",
@@ -939,8 +960,8 @@
     "objectType": "nebula",
     "objectSubType": "Emission Nebula",
     "filename": "rhoophiuchi.jpg",
-    "width": 6219,
-    "height": 4146,
+    "width": 6220,
+    "height": 4169,
     "sortOrder": 6,
     "contextChart": "island-skies-astro/charts/rhoophiuchi-context"
   },

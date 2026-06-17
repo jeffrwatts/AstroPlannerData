@@ -264,6 +264,17 @@
     "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/m83.webp"
   },
   {
+    "objectId": "m8m20",
+    "displayName": "M8m20",
+    "ra": null,
+    "dec": null,
+    "constellation": null,
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null,
+    "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/m8m20.webp"
+  },
+  {
     "objectId": "m97",
     "displayName": "Owl Nebula",
     "ra": 11.2465861,
