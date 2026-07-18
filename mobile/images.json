@@ -1,16 +1,5 @@
 [
   {
-    "objectId": "barnard68",
-    "displayName": "Ophiuchus Globule",
-    "ra": 17.3772778,
-    "dec": -23.8261111111,
-    "constellation": "Ophiucus",
-    "thumbX": null,
-    "thumbY": null,
-    "thumbDim": null,
-    "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/barnard68.webp"
-  },
-  {
     "objectId": "barnard72",
     "displayName": "Snake Nebula",
     "ra": 17.3941667,
@@ -262,17 +251,6 @@
     "thumbY": null,
     "thumbDim": null,
     "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/m83.webp"
-  },
-  {
-    "objectId": "m8m20",
-    "displayName": "M8m20",
-    "ra": null,
-    "dec": null,
-    "constellation": null,
-    "thumbX": null,
-    "thumbY": null,
-    "thumbDim": null,
-    "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/m8m20.webp"
   },
   {
     "objectId": "m97",
@@ -537,5 +515,16 @@
     "thumbY": null,
     "thumbDim": null,
     "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/venus.webp"
+  },
+  {
+    "objectId": "whalehockey",
+    "displayName": "Whale (NGC 4631) & Hockey Stick (NGC 4656)",
+    "ra": 12.715,
+    "dec": 32.349,
+    "constellation": "Canes Venatici",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null,
+    "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/whalehockey.webp"
   }
 ]

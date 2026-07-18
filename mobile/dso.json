@@ -780,19 +780,6 @@
     "magnitude":10.1
   },
   {
-    "displayName":"Ophiuchus Globule",
-    "objectId":"barnard68",
-    "ra":17.3772778,
-    "dec":-23.8261111111,
-    "type":"nebula",
-    "subType":"Dark Nebula",
-    "constellation":"Ophiucus",
-    "recommended":true,
-    "angularSizeMajor":null,
-    "angularSizeMinor":null,
-    "magnitude":null
-  },
-  {
     "displayName":"Carina Nebula",
     "objectId":"ngc3372",
     "ra":10.7523694,

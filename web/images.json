@@ -183,8 +183,8 @@
     "objectType": "nebula",
     "objectSubType": "Emission Nebula",
     "filename": "m16-pillars-of-creation.jpg",
-    "width": 3610,
-    "height": 2612,
+    "width": 3100,
+    "height": 3100,
     "sortOrder": 10,
     "contextChart": "island-skies-astro/charts/m16-context"
   },
@@ -204,8 +204,8 @@
     "objectType": "nebula",
     "objectSubType": "Emission Nebula",
     "filename": "m16.jpg",
-    "width": 4130,
-    "height": 2789,
+    "width": 4084,
+    "height": 2762,
     "sortOrder": 9,
     "contextChart": "island-skies-astro/charts/m16-context"
   },
@@ -246,9 +246,9 @@
     "objectType": "nebula",
     "objectSubType": "Emission Nebula",
     "filename": "m20.jpg",
-    "width": 4118,
-    "height": 2791,
-    "sortOrder": 17,
+    "width": 4132,
+    "height": 2797,
+    "sortOrder": 19,
     "contextChart": "island-skies-astro/charts/m20-context"
   },
   {
@@ -311,7 +311,7 @@
     "filename": "m31.jpg",
     "width": 6242,
     "height": 4173,
-    "sortOrder": 15,
+    "sortOrder": 18,
     "contextChart": "island-skies-astro/charts/m31-context"
   },
   {
@@ -542,7 +542,7 @@
     "filename": "ngc2237.jpg",
     "width": 5061,
     "height": 3379,
-    "sortOrder": 18,
+    "sortOrder": 20,
     "contextChart": "island-skies-astro/charts/ngc2237-context"
   },
   {
@@ -668,7 +668,7 @@
     "filename": "ngc4565.jpg",
     "width": 4130,
     "height": 2788,
-    "sortOrder": 16,
+    "sortOrder": 15,
     "contextChart": "island-skies-astro/charts/ngc4565-context"
   },
   {
@@ -840,27 +840,6 @@
     "contextChart": "island-skies-astro/charts/ngc7635-context"
   },
   {
-    "id": "barnard68",
-    "title": "Ophiuchus Globule",
-    "category": "dso",
-    "objectId": "barnard68",
-    "region": null,
-    "cloudinaryId": "island-skies-astro/dso/barnard68",
-    "altText": "Barnard 68 - Ophiuchus Globule",
-    "objectName": "Ophiuchus Globule",
-    "catalogId": "Barnard 68",
-    "ra": 17.3772778,
-    "dec": -23.8261111111,
-    "constellation": "Ophiucus",
-    "objectType": "nebula",
-    "objectSubType": "Dark Nebula",
-    "filename": "barnard68.jpg",
-    "width": 4137,
-    "height": 2816,
-    "sortOrder": null,
-    "contextChart": "island-skies-astro/charts/barnard68-context"
-  },
-  {
     "id": "barnard72",
     "title": "Snake Nebula",
     "category": "dso",
@@ -876,8 +855,8 @@
     "objectType": "nebula",
     "objectSubType": "Dark Nebula",
     "filename": "barnard72.jpg",
-    "width": 4135,
-    "height": 2815,
+    "width": 3959,
+    "height": 2649,
     "sortOrder": null,
     "contextChart": "island-skies-astro/charts/barnard72-context"
   },
@@ -899,29 +878,8 @@
     "filename": "leotriplet.jpg",
     "width": 4126,
     "height": 2810,
-    "sortOrder": null,
+    "sortOrder": 17,
     "contextChart": "island-skies-astro/charts/leotriplet-context"
-  },
-  {
-    "id": "m8m20",
-    "title": "M8M20",
-    "category": "dso",
-    "objectId": "m8m20",
-    "region": null,
-    "cloudinaryId": "island-skies-astro/dso/m8m20",
-    "altText": "m8m20 - M8M20",
-    "objectName": "M8M20",
-    "catalogId": "m8m20",
-    "ra": null,
-    "dec": null,
-    "constellation": null,
-    "objectType": null,
-    "objectSubType": null,
-    "filename": "m8m20.jpg",
-    "width": 6202,
-    "height": 4104,
-    "sortOrder": null,
-    "contextChart": null
   },
   {
     "id": "markarian",
@@ -941,7 +899,7 @@
     "filename": "markarian.jpg",
     "width": 6500,
     "height": 5500,
-    "sortOrder": 19,
+    "sortOrder": 21,
     "contextChart": "island-skies-astro/charts/markarian-context"
   },
   {
@@ -960,10 +918,31 @@
     "objectType": "nebula",
     "objectSubType": "Emission Nebula",
     "filename": "rhoophiuchi.jpg",
-    "width": 6220,
-    "height": 4169,
+    "width": 6194,
+    "height": 4107,
     "sortOrder": 6,
     "contextChart": "island-skies-astro/charts/rhoophiuchi-context"
+  },
+  {
+    "id": "whalehockey",
+    "title": "Whale (NGC 4631) & Hockey Stick (NGC 4656)",
+    "category": "dso",
+    "objectId": "whalehockey",
+    "region": null,
+    "cloudinaryId": "island-skies-astro/dso/whalehockey",
+    "altText": "whalehockey - Whale (NGC 4631) & Hockey Stick (NGC 4656)",
+    "objectName": "Whale (NGC 4631) & Hockey Stick (NGC 4656)",
+    "catalogId": "whalehockey",
+    "ra": 12.715,
+    "dec": 32.349,
+    "constellation": "Canes Venatici",
+    "objectType": "galaxy",
+    "objectSubType": "Galaxy Group",
+    "filename": "whalehockey.jpg",
+    "width": 4142,
+    "height": 2817,
+    "sortOrder": 16,
+    "contextChart": "island-skies-astro/charts/whalehockey-context"
   },
   {
     "id": "jupiter",
