@@ -1,5 +1,26 @@
 [
   {
+    "id": "ic1318",
+    "title": "Sadr Region / Crescent area (IC 1318)",
+    "category": "dso",
+    "objectId": "ic1318",
+    "region": null,
+    "cloudinaryId": "island-skies-astro/dso/ic1318",
+    "altText": "IC 1318 - Sadr Region / Crescent area (IC 1318)",
+    "objectName": "Sadr Region / Crescent area (IC 1318)",
+    "catalogId": "IC 1318",
+    "ra": 20.3704694,
+    "dec": 40.2566944,
+    "constellation": "Cygnus",
+    "objectType": "nebula",
+    "objectSubType": "Emission Nebula",
+    "filename": "ic1318.jpg",
+    "width": 6173,
+    "height": 4145,
+    "sortOrder": 12,
+    "contextChart": "island-skies-astro/charts/ic1318-context"
+  },
+  {
     "id": "ic1805",
     "title": "Heart Nebula",
     "category": "dso",
@@ -59,7 +80,7 @@
     "filename": "ic410-tadpoles.jpg",
     "width": 4144,
     "height": 2822,
-    "sortOrder": 7,
+    "sortOrder": 10,
     "contextChart": "island-skies-astro/charts/ic410-context"
   },
   {
@@ -185,7 +206,7 @@
     "filename": "m16-pillars-of-creation.jpg",
     "width": 3100,
     "height": 3100,
-    "sortOrder": 10,
+    "sortOrder": 3,
     "contextChart": "island-skies-astro/charts/m16-context"
   },
   {
@@ -206,7 +227,7 @@
     "filename": "m16.jpg",
     "width": 4084,
     "height": 2762,
-    "sortOrder": 9,
+    "sortOrder": 4,
     "contextChart": "island-skies-astro/charts/m16-context"
   },
   {
@@ -227,7 +248,7 @@
     "filename": "m17.jpg",
     "width": 4133,
     "height": 2800,
-    "sortOrder": 2,
+    "sortOrder": 5,
     "contextChart": "island-skies-astro/charts/m17-context"
   },
   {
@@ -248,7 +269,7 @@
     "filename": "m20.jpg",
     "width": 4132,
     "height": 2797,
-    "sortOrder": 19,
+    "sortOrder": 6,
     "contextChart": "island-skies-astro/charts/m20-context"
   },
   {
@@ -311,7 +332,7 @@
     "filename": "m31.jpg",
     "width": 6242,
     "height": 4173,
-    "sortOrder": 18,
+    "sortOrder": 21,
     "contextChart": "island-skies-astro/charts/m31-context"
   },
   {
@@ -332,7 +353,7 @@
     "filename": "m42.jpg",
     "width": 4130,
     "height": 2800,
-    "sortOrder": 14,
+    "sortOrder": 17,
     "contextChart": "island-skies-astro/charts/m42-context"
   },
   {
@@ -353,7 +374,7 @@
     "filename": "m42-2.jpg",
     "width": 6223,
     "height": 4148,
-    "sortOrder": 13,
+    "sortOrder": 16,
     "contextChart": "island-skies-astro/charts/m42-context"
   },
   {
@@ -374,7 +395,7 @@
     "filename": "m45.jpg",
     "width": 4415,
     "height": 2948,
-    "sortOrder": 12,
+    "sortOrder": 15,
     "contextChart": "island-skies-astro/charts/m45-context"
   },
   {
@@ -395,7 +416,7 @@
     "filename": "m51.jpg",
     "width": 4144,
     "height": 2822,
-    "sortOrder": 8,
+    "sortOrder": 11,
     "contextChart": "island-skies-astro/charts/m51-context"
   },
   {
@@ -414,9 +435,9 @@
     "objectType": "nebula",
     "objectSubType": "Emission Nebula",
     "filename": "m8.jpg",
-    "width": 4122,
-    "height": 2812,
-    "sortOrder": null,
+    "width": 4129,
+    "height": 2820,
+    "sortOrder": 14,
     "contextChart": "island-skies-astro/charts/m8-context"
   },
   {
@@ -500,7 +521,7 @@
     "filename": "ngc1499.jpg",
     "width": 6232,
     "height": 4144,
-    "sortOrder": 11,
+    "sortOrder": 13,
     "contextChart": "island-skies-astro/charts/ngc1499-context"
   },
   {
@@ -542,7 +563,7 @@
     "filename": "ngc2237.jpg",
     "width": 5061,
     "height": 3379,
-    "sortOrder": 20,
+    "sortOrder": 22,
     "contextChart": "island-skies-astro/charts/ngc2237-context"
   },
   {
@@ -563,7 +584,7 @@
     "filename": "ngc2264.jpg",
     "width": 4160,
     "height": 2498,
-    "sortOrder": 3,
+    "sortOrder": 7,
     "contextChart": "island-skies-astro/charts/ngc2264-context"
   },
   {
@@ -584,7 +605,7 @@
     "filename": "ngc2359.jpg",
     "width": 4102,
     "height": 2794,
-    "sortOrder": 5,
+    "sortOrder": 9,
     "contextChart": "island-skies-astro/charts/ngc2359-context"
   },
   {
@@ -668,7 +689,7 @@
     "filename": "ngc4565.jpg",
     "width": 4130,
     "height": 2788,
-    "sortOrder": 15,
+    "sortOrder": 18,
     "contextChart": "island-skies-astro/charts/ngc4565-context"
   },
   {
@@ -855,9 +876,9 @@
     "objectType": "nebula",
     "objectSubType": "Dark Nebula",
     "filename": "barnard72.jpg",
-    "width": 3959,
-    "height": 2649,
-    "sortOrder": null,
+    "width": 3710,
+    "height": 2538,
+    "sortOrder": 24,
     "contextChart": "island-skies-astro/charts/barnard72-context"
   },
   {
@@ -878,7 +899,7 @@
     "filename": "leotriplet.jpg",
     "width": 4126,
     "height": 2810,
-    "sortOrder": 17,
+    "sortOrder": 20,
     "contextChart": "island-skies-astro/charts/leotriplet-context"
   },
   {
@@ -899,7 +920,7 @@
     "filename": "markarian.jpg",
     "width": 6500,
     "height": 5500,
-    "sortOrder": 21,
+    "sortOrder": 23,
     "contextChart": "island-skies-astro/charts/markarian-context"
   },
   {
@@ -920,7 +941,7 @@
     "filename": "rhoophiuchi.jpg",
     "width": 6194,
     "height": 4107,
-    "sortOrder": 6,
+    "sortOrder": 2,
     "contextChart": "island-skies-astro/charts/rhoophiuchi-context"
   },
   {
@@ -941,7 +962,7 @@
     "filename": "whalehockey.jpg",
     "width": 4142,
     "height": 2817,
-    "sortOrder": 16,
+    "sortOrder": 19,
     "contextChart": "island-skies-astro/charts/whalehockey-context"
   },
   {

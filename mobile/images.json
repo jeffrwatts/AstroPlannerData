@@ -11,6 +11,17 @@
     "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/barnard72.webp"
   },
   {
+    "objectId": "ic1318",
+    "displayName": "Sadr Region / Crescent area (IC 1318)",
+    "ra": 20.3704694,
+    "dec": 40.2566944,
+    "constellation": "Cygnus",
+    "thumbX": null,
+    "thumbY": null,
+    "thumbDim": null,
+    "url": "https://jeffrwatts.github.io/AstroPlannerData/mobile/ic1318.webp"
+  },
+  {
     "objectId": "ic1805",
     "displayName": "Heart Nebula",
     "ra": 2.5448639,

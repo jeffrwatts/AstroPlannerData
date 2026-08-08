@@ -611,6 +611,19 @@
     "magnitude":null
   },
   {
+    "displayName":"WR 134",
+    "objectId":"wr134",
+    "ra":20.1706091,
+    "dec":36.1764085232,
+    "type":"nebula",
+    "subType":"Emission Nebula",
+    "constellation":"Cygnus",
+    "recommended":true,
+    "angularSizeMajor":null,
+    "angularSizeMinor":null,
+    "magnitude":null
+  },
+  {
     "displayName":"Witch Head Nebula",
     "objectId":"ic2118",
     "ra":5.0820667,

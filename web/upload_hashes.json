@@ -22,7 +22,7 @@
   "dso/m42-2": "04eb9d01d501e40cba7a337d62d8d215",
   "dso/m45": "2b7a3153d4f0c2b54cc5ecf57678e3e6",
   "dso/m51": "50a2b9faccd86e8fd56a7dee1abc12f3",
-  "dso/m8": "04a196d705f2baf798bbdc184ab823b4",
+  "dso/m8": "102433916a434baa2bbae8a99d00b6e2",
   "dso/m81m82": "aab93f93b0ee8303a84587c9133a9689",
   "dso/m83": "67584729581126b8e8b5370201d1e447",
   "dso/m97": "a64f555f3f14236a0528d54487428dd0",
@@ -43,7 +43,7 @@
   "dso/ngc7293": "9ded7818e739e487845fa92595aaba4c",
   "dso/ngc7380": "5adecb100534f64c0a3f6326fb65ed9e",
   "dso/ngc7635-hoo": "8babe30c0ffdb0d05552b90ad600f9eb",
-  "dso/barnard72": "d14e330126b5d70a74b5c26e6e9cf2ca",
+  "dso/barnard72": "f7edd1f17a1c05a7d88767ca745deb82",
   "dso/leotriplet": "a576708bf8b58742789130e8dfd3a837",
   "dso/markarian": "c469ca51c9b002d5b197244cdfde62cd",
   "dso/rhoophiuchi": "cb9cf0972aabd0173baf4b7b8b69a2db",
@@ -149,5 +149,8 @@
   "charts/ngc7380-context": "b4942889b14ca7d0489c3d053c324021",
   "charts/ngc7635-context": "e88b1fba88c86d24fcb1874f005af1d9",
   "charts/rhoophiuchi-context": "7b087ebb4a6c72cf3dd5ceb15210b92d",
-  "charts/whalehockey-context": "b92e23a92fc8b04c6199fd7cbb901659"
+  "charts/whalehockey-context": "b92e23a92fc8b04c6199fd7cbb901659",
+  "dso/ic1318": "3862297b30ad1e2a2b7f5d6cde747c96",
+  "chartgen/ic1318": "300f3bf4c9ca7fce4b1570d29fddd584",
+  "charts/ic1318-context": "d24b672c8fba02060e45d03f84203005"
 }
