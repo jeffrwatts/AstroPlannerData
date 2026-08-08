@@ -7,3 +7,5 @@ __pycache__/
 web/dso/
 web/solar-system/
 web/charts/
+sample_frames/
+sxphe_data/
