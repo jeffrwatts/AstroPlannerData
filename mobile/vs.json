@@ -1,0 +1,38 @@
+[
+  {
+    "displayName":"CY Aqr",
+    "objectId":"cyaqr",
+    "ra":22.629958,
+    "dec":1.53439,
+    "subType":"SXPHE",
+    "constellation":"Aquarius",
+    "magnitude":10.42,
+    "variablePeriodDays":0.06103845,
+    "variableEpochJd":2460588.3813,
+    "variableEpochType":"MAX"
+  },
+  {
+    "displayName":"YZ Boo",
+    "objectId":"yzboo",
+    "ra":15.4019447,
+    "dec":36.86683,
+    "subType":"HADS",
+    "constellation":"Bo\u00f6tes",
+    "magnitude":10.33,
+    "variablePeriodDays":0.10409161,
+    "variableEpochJd":2457118.4722000002,
+    "variableEpochType":"MAX"
+  },
+  {
+    "displayName":"W UMa",
+    "objectId":"wuma",
+    "ra":9.7292973,
+    "dec":55.95253,
+    "subType":"EW\/KW",
+    "constellation":"Ursa Major",
+    "magnitude":7.75,
+    "variablePeriodDays":0.3336334,
+    "variableEpochJd":2453761.977,
+    "variableEpochType":"MIN"
+  }
+]
