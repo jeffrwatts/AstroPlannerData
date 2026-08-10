@@ -34,29 +34,5 @@
     "variablePeriodDays":0.3336334,
     "variableEpochJd":2453761.977,
     "variableEpochType":"MIN"
-  },
-  {
-    "displayName":"V5563 Sgr",
-    "objectId":"v5563sgr",
-    "ra":18.0761667,
-    "dec":-24.36681,
-    "subType":"EW+BE",
-    "constellation":"Sagittarius",
-    "magnitude":9.65,
-    "variablePeriodDays":0.617262,
-    "variableEpochJd":2452840.577,
-    "variableEpochType":"MIN"
-  },
-  {
-    "displayName":"V0792 Sgr",
-    "objectId":"v0792sgr",
-    "ra":18.051314,
-    "dec":-22.86394,
-    "subType":"EB\/D",
-    "constellation":"Sagittarius",
-    "magnitude":11.7,
-    "variablePeriodDays":3.930956,
-    "variableEpochJd":2428807.27,
-    "variableEpochType":"MIN"
   }
 ]
