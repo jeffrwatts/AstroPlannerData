@@ -25,6 +25,7 @@ listed fields must match exactly in name and type.
   {
     "displayName": "CY Aqr",
     "objectId": "cyaqr",
+    "type": "variable",
     "ra": 22.629958,
     "dec": 1.53439,
     "subType": "SXPHE",
@@ -33,6 +34,19 @@ listed fields must match exactly in name and type.
     "variablePeriodDays": 0.06103845,
     "variableEpochJd": 2460588.3813,
     "variableEpochType": "MAX"
+  },
+  {
+    "displayName": "SA110",
+    "objectId": "sa110",
+    "type": "standard_field",
+    "ra": 18.7056945,
+    "dec": 0.184722,
+    "subType": null,
+    "constellation": "Aquila",
+    "magnitude": null,
+    "variablePeriodDays": null,
+    "variableEpochJd": null,
+    "variableEpochType": null
   }
 ]
 ```
@@ -41,24 +55,31 @@ listed fields must match exactly in name and type.
 
 | Field | Type | Required | Notes |
 |---|---|---|---|
-| `displayName` | string | yes | Human-readable name, as shown in the UI (e.g. AAVSO/VSX designation: `"CY Aqr"`). |
-| `objectId` | string | yes | Stable lowercase identifier, no spaces/punctuation (e.g. `"cyaqr"`). Used as a natural key — re-running the import should update the same row, not duplicate it. |
+| `displayName` | string | yes | Human-readable name, as shown in the UI (e.g. AAVSO/VSX designation `"CY Aqr"`, or AAVSO standard-field name `"SA110"`). |
+| `objectId` | string | yes | Stable lowercase identifier, no spaces/punctuation (e.g. `"cyaqr"`, `"sa110"`). Used as a natural key — re-running the import should update the same row, not duplicate it. |
+| `type` | string | yes | Either `"variable"` (an AAVSO/VSX variable star) or `"standard_field"` (an AAVSO photometric standard field, e.g. `SA110`, used for color-transform calibration rather than variability monitoring). Determines which of the fields below are populated — see below. Any value other than these two should be treated as unrecognized/skip, not defaulted to `"variable"`. |
 | `ra` | number | yes | Right ascension in **decimal hours**, range `[0, 24)`. Matches `dso.json`'s RA convention — the app multiplies by 15 to store degrees internally. **Not** decimal degrees. |
 | `dec` | number | yes | Declination in **decimal degrees**, signed, range `[-90, 90]`. |
-| `subType` | string | yes | Variable star classification/type, free text matching AAVSO/VSX conventions (e.g. `"SXPHE"`, `"EA"`, `"EW"`, `"MIRA"`, `"RRAB"`). Stored as-is; no enum validation on the app side. |
-| `constellation` | string | no | IAU constellation name/abbreviation if available (e.g. `"Aquarius"`). Omit or `null` if unknown. |
-| `magnitude` | number | no | A single representative magnitude (e.g. bright/maximum-light V mag). Omit or `null` if unknown. There is currently no min/max magnitude range field in the app's schema — just one value. |
-| `variablePeriodDays` | number | yes | Period of the variable, in days. Must be `> 0`. |
-| `variableEpochJd` | number | yes | Reference epoch as a Julian Date (not `HJD`-vs-`JD` distinguished — treat as JD), matching the epoch convention AAVSO/VSX publish for the given `variableEpochType`. |
-| `variableEpochType` | string | yes | Either `"MIN"` or `"MAX"` — whether `variableEpochJd` marks a minimum or maximum. Any other value falls back to being treated as `"MAX"` on the app side, so use exactly one of these two strings. |
+| `subType` | string \| null | conditional | Variable star classification, free text matching AAVSO/VSX conventions (e.g. `"SXPHE"`, `"EA"`, `"EW"`, `"MIRA"`, `"RRAB"`). Populated when `type = "variable"`. Always `null` when `type = "standard_field"` — standard fields have no variability classification. |
+| `constellation` | string | no | IAU constellation name/abbreviation if available (e.g. `"Aquarius"`). Populated for both `type` values (derived from RA/Dec, not variability-specific). Omit or `null` if unknown. |
+| `magnitude` | number \| null | conditional | A single representative magnitude (e.g. bright/maximum-light V mag). Populated when `type = "variable"`; `null` when `type = "standard_field"` — a standard field is a cluster of comparison stars at many magnitudes, not a single target with one brightness. There is currently no min/max magnitude range field in the app's schema — just one value. |
+| `variablePeriodDays` | number \| null | conditional | Period of the variable, in days (`> 0`). Populated when `type = "variable"`. Always `null` when `type = "standard_field"` — standard fields aren't periodic variables. |
+| `variableEpochJd` | number \| null | conditional | Reference epoch as a Julian Date (not `HJD`-vs-`JD` distinguished — treat as JD), matching the epoch convention AAVSO/VSX publish for the given `variableEpochType`. Populated when `type = "variable"`; always `null` when `type = "standard_field"`. |
+| `variableEpochType` | string \| null | conditional | Either `"MIN"` or `"MAX"` — whether `variableEpochJd` marks a minimum or maximum. Any other value falls back to being treated as `"MAX"` on the app side. Populated when `type = "variable"`; always `null` when `type = "standard_field"`. |
+
+**Practical implication for consumers**: any UI/logic built around variability (period-phase charts, min/max epoch countdown, magnitude-range display) should be gated on `type = "variable"` and simply not shown/computed for `type = "standard_field"` rows, rather than treating the null fields as missing/bad data to fall back on.
 
 ## What the app does with it (for context, not to implement in the notebook)
 
 On import, the app will:
 - Fetch the URL with a cache-busting `?t=<timestamp>` query param (same as `dso.json`).
-- Delete existing catalog-sourced variable stars (rows where `type = 'VARIABLE_STAR' AND userAdded = 0`) before re-inserting — so this is a full-replace sync, not a diff/merge. Rows the user entered manually (`userAdded = 1`) are untouched.
-- Insert each entry with `type` hardcoded to `VARIABLE_STAR` and `recommended = 0` — the "Variables" filter chip on the AstroPlanner screen filters by type directly, not by `recommended`.
+- Delete existing catalog-sourced rows (rows where `userAdded = 0` and the app's internal type is one that's sourced from this feed) before re-inserting — so this is a full-replace sync, not a diff/merge. Rows the user entered manually (`userAdded = 1`) are untouched.
+- Map the feed's `type` field to the app's internal row type: `"variable"` → `VARIABLE_STAR`, `"standard_field"` → a distinct internal type (e.g. `STANDARD_FIELD`) so it can be filtered/displayed separately from variable stars rather than merged into the existing "Variables" filter chip. This replaces the old behavior of hardcoding every imported row to `VARIABLE_STAR`.
+- Set `recommended = 0` on import regardless of `type` — filtering is by type, not `recommended`.
 - Convert `ra` (hours) → degrees (`ra * 15.0`) before storing, matching how `dso.json`'s RA is handled today.
+- For `standard_field` rows, skip populating/displaying any variability-specific UI (period-phase chart, min/max countdown) since those fields are `null` — see comp-star note below for what a standard field's detail screen should show instead.
+
+Comparison-star cache entries for `standard_field` objects (`comp_stars/<objectId>.json`, see `specs/comp_stars_json_spec.md`) additionally carry a `bands` field (multi-band magnitudes per star) not present for ordinary variable-star comparison stars — relevant if the app's comp-star detail UI wants to show color-transform data for standard fields.
 
 ## Open questions for the notebook (flag if the data source doesn't cleanly support these)
 

@@ -43,6 +43,22 @@ with `kotlinx.serialization`, use `ignoreUnknownKeys = true` as with
 ]
 ```
 
+Objects whose `vs.json` `type` is `"standard_field"` (e.g. `m11`) additionally
+carry a `bands` field:
+
+```json
+[
+  {
+    "auid": "000-BLT-173",
+    "ra": 18.851086111111112,
+    "dec": -6.29225,
+    "label": "105",
+    "mag": 10.513,
+    "bands": {"V": 10.513, "U": 10.4, "B": 10.763, "Rc": 10.35, "Ic": 10.141}
+  }
+]
+```
+
 ## Field reference
 
 | Field | Type | Required | Notes |
@@ -52,14 +68,17 @@ with `kotlinx.serialization`, use `ignoreUnknownKeys = true` as with
 | `dec` | number | yes | Declination in **decimal degrees**, signed, range `[-90, 90]`. |
 | `label` | string | yes | AAVSO chart label, e.g. `"53"` means an apparent magnitude of 5.3 (`"122"` means 12.2). This is the label AAVSO printed on their finder charts — display it as-is next to the star, don't reformat it into a magnitude unless you also want to show the raw `mag` field separately. |
 | `mag` | number \| null | no | A single representative magnitude, generally V-band if AAVSO published one for this star, otherwise whatever band was available. `null` if no magnitude value could be resolved. |
+| `bands` | object \| absent | no | Only present for `standard_field`-type objects (AAVSO photometric calibration fields like M11, used for color-transform calculations). Maps band name to magnitude, e.g. `{"V": 10.51, "U": 10.4, "B": 10.76, "Rc": 10.35, "Ic": 10.14}`. Absent entirely for ordinary variable-star comparison stars. |
 
 ## Fetch window (why coverage might look "too generous")
 
 Each file is generated from a single AAVSO VSP query centered on the
-target's own catalog RA/Dec, requesting a **2.0° diagonal field of view**
-at **maglimit 14.5**. This is deliberately generous — wider than any single
-piece of amateur equipment's real field of view — so the cache comfortably
-covers:
+target's own catalog RA/Dec.
+
+For ordinary variable-star targets, the query requests a **2.0° diagonal
+field of view** at **maglimit 14.5**. This is deliberately generous — wider
+than any single piece of amateur equipment's real field of view — so the
+cache comfortably covers:
 - The real imaging FOV (e.g. ~1.0°–1.1° diagonal for a typical C8 + ASI294MC setup).
 - Framing drift, dithering, and slight pointing error between sessions.
 
@@ -68,6 +87,15 @@ what any single frame actually captures — that's expected, not a bug. Any
 consumer that needs "stars actually in this frame" (like `field_check.ipynb`)
 is responsible for filtering by its own frame's WCS/footprint; the cache
 itself makes no claim that every star in the file is in every frame.
+
+For `standard_field`-type targets, the query instead uses the field's own
+native FOV (from AAVSO's `api.std_fields` catalog — e.g. ~15′ for M11, much
+smaller than the generic 2.0° window) plus a `special=std_field` parameter,
+which switches AAVSO's response from the sparse comparison-star sequence to
+the full dense photometric calibration sequence for that field (hundreds of
+stars). That full sequence is capped to the **30 brightest stars** before
+caching, purely for chart legibility — it is not the complete AAVSO standard
+sequence, and consumers should not assume otherwise.
 
 ## What the app might do with it (context only — not dictated)
 
