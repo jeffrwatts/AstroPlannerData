@@ -12,9 +12,10 @@ https://jeffrwatts.github.io/AstroPlannerData/mobile/dso.json
 ```
 
 Downloaded on-device via `Config.DSO_URL`. `dso_catalog.ipynb` produces
-**only** this JSON file — it does no image handling. Object thumbnail
-images (`mobile/<objectId>.webp`) and their catalog (`images.json`) are a
-separate pipeline; see `images_json_spec.md`.
+**only** this JSON file — it does no image handling. Object thumbnail/gallery
+images and their catalog (`images.json`) are a separate pipeline
+(`image_processing_web.ipynb`, uploading to Cloudinary); see
+`images_json_spec.md`.
 
 ## Format
 

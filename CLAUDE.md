@@ -2,11 +2,11 @@
 
 ## Repo Purpose
 
-Static file server for the AstroPlanner iOS/Android app. All files served from `mobile/` via GitHub Pages.
+Static file server for the AstroPlanner iOS/Android app, plus the notebooks that generate images for IslandSkiesWeb. Catalog JSON is served from `mobile/` via GitHub Pages; images and the image catalog are hosted on Cloudinary.
 
 - `mobile/dso.json` — DSO catalog (`Config.DSO_URL`)
-- `mobile/images.json` — Image catalog (`Config.IMAGES_URL`)
-- `mobile/<objectId>.webp` — Resized astrophotography images
+- `mobile/vs.json` — Variable star / standard field catalog
+- Images and `images.json` — hosted on Cloudinary, produced by `image_processing_web.ipynb` (`Config.IMAGES_URL` points at the Cloudinary-hosted `images.json`, not this repo)
 
 GitHub repo: https://github.com/jeffrwatts/AstroPlannerData
 
@@ -51,20 +51,21 @@ Generates `mobile/dso.json` from OpenNGC + SIMBAD fallback + astropy constellati
 
 ---
 
-## image_processing.ipynb
+## image_processing_web.ipynb
 
-Auto-discovers images, resizes to WEBP, generates `mobile/images.json`.
+Auto-discovers images, resizes/re-compresses them, generates `web/images.json`, and uploads both images and the manifest to Cloudinary. This is the sole image pipeline — `image_processing.ipynb` (the old mobile-only GitHub Pages pipeline, `mobile/*.webp` + `mobile/images.json`) has been retired; AstroPlanner now fetches images and `images.json` from Cloudinary, same as IslandSkiesWeb.
 
 **Exports root:** `/Users/jwatts/Documents/astrophotography/Exports/`
 
-Folder structure → objectId mapping:
-- `Exports/DSO/<FolderName>/` → objectId = folder name lowercased
-- `Exports/Planets/<Planet>/` → objectId = planet name lowercased (picks most recent session subfolder)
-- `Exports/Lunar/` → always requires an `image_overrides` entry for `"moon"`
+Folder structure → objectId/category mapping:
+- `Exports/DSO/<FolderName>/` → objectId = folder name lowercased, category `"dso"`
+- `Exports/Planet/`, `Exports/Comet/`, `Exports/Lunar/`, `Exports/Solar/` → category `"solar-system"`
 
-**Cell 1 (`image_overrides`):** Required for moon; optional for pinning thumbX/thumbY/thumbDim on any object.
+**`UPLOAD_TO_CLOUDINARY`** (Cell 1): gates Cloudinary upload and constellation context chart generation — set `False` to just regenerate local files without touching Cloudinary.
 
-**Workflow:** Add images to Exports → Run all cells → Commit `mobile/<objectId>.webp` and `mobile/images.json`
+**Workflow:** Add images to Exports → Run all cells → uploads happen inline (content-hashed, skips unchanged files) → commit `web/images.json` for reference.
+
+See `specs/images_json_spec.md` for the full field reference.
 
 ---
 
