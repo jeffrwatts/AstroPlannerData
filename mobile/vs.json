@@ -2,6 +2,7 @@
   {
     "displayName":"CY Aqr",
     "objectId":"cyaqr",
+    "type":"variable",
     "ra":22.629958,
     "dec":1.53439,
     "subType":"SXPHE",
@@ -14,6 +15,7 @@
   {
     "displayName":"YZ Boo",
     "objectId":"yzboo",
+    "type":"variable",
     "ra":15.4019447,
     "dec":36.86683,
     "subType":"HADS",
@@ -26,6 +28,7 @@
   {
     "displayName":"W UMa",
     "objectId":"wuma",
+    "type":"variable",
     "ra":9.7292973,
     "dec":55.95253,
     "subType":"EW\/KW",
@@ -34,5 +37,57 @@
     "variablePeriodDays":0.3336334,
     "variableEpochJd":2453761.977,
     "variableEpochType":"MIN"
+  },
+  {
+    "displayName":"SA110",
+    "objectId":"sa110",
+    "type":"standard_field",
+    "ra":18.7056945,
+    "dec":0.184722,
+    "subType":null,
+    "constellation":"Aquila",
+    "magnitude":null,
+    "variablePeriodDays":null,
+    "variableEpochJd":null,
+    "variableEpochType":null
+  },
+  {
+    "displayName":"SA111",
+    "objectId":"sa111",
+    "type":"standard_field",
+    "ra":19.6304722,
+    "dec":0.359722,
+    "subType":null,
+    "constellation":"Aquila",
+    "magnitude":null,
+    "variablePeriodDays":null,
+    "variableEpochJd":null,
+    "variableEpochType":null
+  },
+  {
+    "displayName":"SA112",
+    "objectId":"sa112",
+    "type":"standard_field",
+    "ra":20.7018611,
+    "dec":0.220556,
+    "subType":null,
+    "constellation":"Aquarius",
+    "magnitude":null,
+    "variablePeriodDays":null,
+    "variableEpochJd":null,
+    "variableEpochType":null
+  },
+  {
+    "displayName":"SA113",
+    "objectId":"sa113",
+    "type":"standard_field",
+    "ra":21.7021111,
+    "dec":0.375278,
+    "subType":null,
+    "constellation":"Aquarius",
+    "magnitude":null,
+    "variablePeriodDays":null,
+    "variableEpochJd":null,
+    "variableEpochType":null
   }
 ]
