@@ -39,19 +39,6 @@
     "variableEpochType":"MIN"
   },
   {
-    "displayName":"MW Cam",
-    "objectId":"mwcam",
-    "type":"variable",
-    "ra":12.4454833,
-    "dec":81.47397,
-    "subType":"DSCT",
-    "constellation":"Camelopardalis",
-    "magnitude":9.15,
-    "variablePeriodDays":0.1327912,
-    "variableEpochJd":2460332.702,
-    "variableEpochType":"MAX"
-  },
-  {
     "displayName":"MP UMa",
     "objectId":"mpuma",
     "type":"variable",
@@ -62,19 +49,6 @@
     "magnitude":11.74,
     "variablePeriodDays":0.0712805,
     "variableEpochJd":2456824.7689999999,
-    "variableEpochType":"MAX"
-  },
-  {
-    "displayName":"V0336 Aps",
-    "objectId":"v0336aps",
-    "type":"variable",
-    "ra":14.2508193,
-    "dec":-74.24636,
-    "subType":"DSCT",
-    "constellation":"Apus",
-    "magnitude":11.05,
-    "variablePeriodDays":0.1322093,
-    "variableEpochJd":2454659.5854000002,
     "variableEpochType":"MAX"
   },
   {
@@ -101,19 +75,6 @@
     "magnitude":12.41,
     "variablePeriodDays":0.1413004,
     "variableEpochJd":2458047.7340000002,
-    "variableEpochType":"MAX"
-  },
-  {
-    "displayName":"V0952 Ara",
-    "objectId":"v0952ara",
-    "type":"variable",
-    "ra":17.1727667,
-    "dec":-54.25131,
-    "subType":"DSCT",
-    "constellation":"Ara",
-    "magnitude":10.19,
-    "variablePeriodDays":0.109128,
-    "variableEpochJd":2453500.0210000002,
     "variableEpochType":"MAX"
   },
   {
