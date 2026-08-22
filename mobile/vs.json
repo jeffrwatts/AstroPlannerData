@@ -154,5 +154,31 @@
     "variablePeriodDays":null,
     "variableEpochJd":null,
     "variableEpochType":null
+  },
+  {
+    "displayName":"SA114",
+    "objectId":"sa114",
+    "type":"standard_field",
+    "ra":22.6981945,
+    "dec":0.817222,
+    "subType":null,
+    "constellation":"Aquarius",
+    "magnitude":null,
+    "variablePeriodDays":null,
+    "variableEpochJd":null,
+    "variableEpochType":null
+  },
+  {
+    "displayName":"SA115",
+    "objectId":"sa115",
+    "type":"standard_field",
+    "ra":23.71475,
+    "dec":1.096944,
+    "subType":null,
+    "constellation":"Pisces",
+    "magnitude":null,
+    "variablePeriodDays":null,
+    "variableEpochJd":null,
+    "variableEpochType":null
   }
 ]
