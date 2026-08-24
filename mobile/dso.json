@@ -169,6 +169,19 @@
     "magnitude":5.33
   },
   {
+    "displayName":"Corona Australis Molecular Cloud",
+    "objectId":"ngc6726",
+    "ra":19.0275833,
+    "dec":-36.8913056,
+    "type":"nebula",
+    "subType":"Reflection Nebula",
+    "constellation":"Corona Australis",
+    "recommended":true,
+    "angularSizeMajor":9.0,
+    "angularSizeMinor":7.0,
+    "magnitude":null
+  },
+  {
     "displayName":"Western Veil Nebula",
     "objectId":"ngc6960",
     "ra":20.7661611,

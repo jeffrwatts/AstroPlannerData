@@ -104,6 +104,32 @@
     "variableEpochType":"MAX"
   },
   {
+    "displayName":"M11",
+    "objectId":"m11-standard",
+    "type":"standard_field",
+    "ra":18.851528,
+    "dec":-6.266667,
+    "subType":null,
+    "constellation":"Scutum",
+    "magnitude":null,
+    "variablePeriodDays":null,
+    "variableEpochJd":null,
+    "variableEpochType":null
+  },
+  {
+    "displayName":"M67",
+    "objectId":"m67-standard",
+    "type":"standard_field",
+    "ra":8.8558917,
+    "dec":11.800667,
+    "subType":null,
+    "constellation":"Cancer",
+    "magnitude":null,
+    "variablePeriodDays":null,
+    "variableEpochJd":null,
+    "variableEpochType":null
+  },
+  {
     "displayName":"SA110",
     "objectId":"sa110",
     "type":"standard_field",
