@@ -104,6 +104,19 @@
     "magnitude":null
   },
   {
+    "displayName":"SN 2026aaiv (NGC 7331)",
+    "objectId":"ngc7331",
+    "ra":22.6177806,
+    "dec":34.4155278,
+    "type":"galaxy",
+    "subType":"Spiral Galaxy",
+    "constellation":"Pegasus",
+    "recommended":true,
+    "angularSizeMajor":9.27,
+    "angularSizeMinor":3.76,
+    "magnitude":9.41
+  },
+  {
     "displayName":"NGC 3166\/3169 Group",
     "objectId":"ngc3166",
     "ra":10.2293333,
