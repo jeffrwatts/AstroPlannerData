@@ -152,5 +152,10 @@
   "charts/whalehockey-context": "b92e23a92fc8b04c6199fd7cbb901659",
   "dso/ic1318": "3862297b30ad1e2a2b7f5d6cde747c96",
   "chartgen/ic1318": "300f3bf4c9ca7fce4b1570d29fddd584",
-  "charts/ic1318-context": "d24b672c8fba02060e45d03f84203005"
+  "charts/ic1318-context": "d24b672c8fba02060e45d03f84203005",
+  "dso/ic1396": "4b046a11eb1f544afa099181eb1cedb9",
+  "dso/ic1396-trunk": "49cba1965501368a1557df405427244f",
+  "dso/veilcomplex": "54a98495d61046614665940192d83355",
+  "chartgen/ic1396": "f37588756a8c9a67e936136d3a7b4730",
+  "charts/ic1396-context": "fbe87cfc317fa2be734718c21a5c046a"
 }
