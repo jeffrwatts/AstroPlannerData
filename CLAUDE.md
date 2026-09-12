@@ -69,6 +69,28 @@ See `specs/images_json_spec.md` for the full field reference.
 
 ---
 
+## aavso_report_check.ipynb
+
+Compares an AAVSO Extended-format report (single comparison star + single check star, not an ensemble — see Q1 reasoning below) against the same session with a transform applied via VPhot's Transform Applier (`TRANS=YES`), to judge whether the transform improved accuracy/precision. There is no existing AAVSO tool for this; per Jeff's AAVSO mentor, most observers either skip this check entirely or do it ad-hoc in a spreadsheet — so this notebook is worth continued investment, not just a one-off script. Not committed to the repo output-wise — inputs are report `.txt` files from `../../../Documents/astrophotography/Photometry/...` (outside the repo).
+
+**Inputs**, configured via `BEFORE_REPORT_PATH` / `AFTER_REPORT_PATH` / `GENERAL_REPORT_PATH`:
+- `BEFORE_REPORT_PATH` — the untransformed AAVSO Extended report (required).
+- `AFTER_REPORT_PATH` — the TA-transformed AAVSO Extended report. **Optional**: set to `None` for a session with no transform run yet (e.g. only reduced in one filter so far). All table-building/plotting functions take `df_after=None` and switch to single-report mode: one `Avg`/`Std`/`Trend` column set instead of paired `(Before)`/`(After)` columns, one curve per plot instead of two. The column-selection/formatting/styling code (in the Check Stars/Targets display block and `plot_before_after`) is written generically off of *which columns are actually present* so both modes share the same display logic — don't reintroduce Before/After-specific column names without also handling the single-report case.
+- `GENERAL_REPORT_PATH` — VPhot's General Report for the (untransformed) session. Tab-delimited, **positional** columns (not name-keyed, since the target/check/comp column headers are the star names themselves): `JD, Filter, Airmass, <target>, <check>, <comp>, Err, SNR, FWHM, Skyglow, Max ADU, I.M.` `<comp>` is always `na` (comp star is the calibration anchor, no independent measured value). `Err`/`SNR` are per-observation and describe the **target's** measurement only (`Err ≈ 1.0857/SNR`) — there's no separate check-star SNR field. Only one General Report is needed (not a before/after pair): the transform recalibrates magnitude, it doesn't re-observe, so the same physical exposures/noise underlie both AAVSO reports.
+- Joining the General Report onto the AAVSO report: the two exports compute timestamps independently and can disagree by a few `1e-5` days even for the same exposure, so an equality join on rounded JD silently drops rows. Use `attach_general_report()`'s nearest-JD-within-tolerance (`pd.merge_asof`, grouped by filter) instead.
+
+**Two tables, back-to-back, no code cell in between (Jeff wants the display clean):**
+- **Check Stars** — has a catalog magnitude (`KREFMAG`/`KREFERR` from the `NOTES` field), so accuracy is measurable. `Avg (Before/After)` shows `mag (Δ from catalog)`; Δ is color-coded green/orange/red vs. ±1×/2× `KREFERR`. `Std` is color-coded the same way against a `Noise Floor` column (per-filter median of the General Report's per-observation `Err`) — per the mentor, comparing check-star Std to the individual measurement's error estimate is a reasonable noise floor, and also a reasonable proxy for the target's own error, when check and target magnitudes are within ~1 mag (true for CY Aqr). `Trend (Before/After)` is the check star's predicted magnitude swing across the session's observed airmass range (linear fit of `KEFF` vs. `AMASS`), colored green/red at ±0.05 mag (mentor's rule of thumb for atmospheric extinction on long time series).
+- **Targets** — no catalog magnitude for the target itself, so `Range` (observed Min–Max) is shown instead of Average; `Std` was removed as redundant once Range covers amplitude visually. For the V band only, `VSX Range (V)` shows the catalog amplitude fetched live from VSX (`fetch_vsx_range()`), and `Range (Before)`/`Range (After)` are colored via `range_color()`/`RANGE_TOLERANCE` (0.1 mag): good if the observed range falls fully inside the VSX range, borderline if it overshoots either edge by ≤0.1 mag, flag beyond that — per the mentor, don't fuss over VSX range differences under ~0.1 mag, since VSX's range is just observed min/max in the database, not authoritative. (Originally this was a strict inside/outside boolean; it flagged near-misses of a few hundredths of a mag as red on two different real sessions, which is why it's tolerance-aware now.) B/R rows stay uncolored (VSX only publishes one band's amplitude).
+
+**Key constraint:** check-star rows must be merged Before-vs-After by `FILT` only, never by `KNAME` — a `TransformApplier` report renames the check star from a local designation (e.g. `117`) to an AAVSO AUID (e.g. `000-BCQ-590`) for the same physical star.
+
+**Plots:** `plot_before_after()` shows check star and target curves side by side per filter (target curve added to support the "gut check on curve shape / outliers" criterion). `plot_diagnostics()` plots FWHM/Skyglow/Max ADU vs. time from the General Report, one subplot per metric, colored by filter — session-level (not before/after split), since both sides share the same exposures.
+
+**Resolved:** an earlier revision left `Std` uncolored because this report format had no per-star SNR field to judge it against. The General Report closes that gap (see above) — the noise-floor coloring is no longer a rejected approach.
+
+---
+
 ## planner_eval.ipynb
 
 Prompt evaluation framework for the AstroPlanner imaging planner feature. See `planner_prompt_v2_spec.md` for the full prompt specification.
