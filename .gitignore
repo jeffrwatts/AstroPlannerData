@@ -10,3 +10,4 @@ web/charts/
 sample_frames/
 mobile/*.webp
 figures/
+.dustmaps_data/

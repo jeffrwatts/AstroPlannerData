@@ -36,9 +36,9 @@
     "objectType": "nebula",
     "objectSubType": "Emission Nebula",
     "filename": "ic1396.jpg",
-    "width": 6216,
-    "height": 4160,
-    "sortOrder": 6,
+    "width": 6157,
+    "height": 4047,
+    "sortOrder": 8,
     "contextChart": "island-skies-astro/charts/ic1396-context"
   },
   {
@@ -59,7 +59,7 @@
     "filename": "ic1396-trunk.jpg",
     "width": 4000,
     "height": 4000,
-    "sortOrder": 5,
+    "sortOrder": 7,
     "contextChart": "island-skies-astro/charts/ic1396-context"
   },
   {
@@ -290,7 +290,7 @@
     "filename": "m17.jpg",
     "width": 4133,
     "height": 2800,
-    "sortOrder": 7,
+    "sortOrder": 5,
     "contextChart": "island-skies-astro/charts/m17-context"
   },
   {
@@ -311,7 +311,7 @@
     "filename": "m20.jpg",
     "width": 4132,
     "height": 2797,
-    "sortOrder": 8,
+    "sortOrder": 6,
     "contextChart": "island-skies-astro/charts/m20-context"
   },
   {
@@ -374,7 +374,7 @@
     "filename": "m31.jpg",
     "width": 6242,
     "height": 4173,
-    "sortOrder": 23,
+    "sortOrder": 24,
     "contextChart": "island-skies-astro/charts/m31-context"
   },
   {
@@ -605,7 +605,7 @@
     "filename": "ngc2237.jpg",
     "width": 5061,
     "height": 3379,
-    "sortOrder": 24,
+    "sortOrder": 25,
     "contextChart": "island-skies-astro/charts/ngc2237-context"
   },
   {
@@ -861,6 +861,27 @@
     "contextChart": "island-skies-astro/charts/ngc7293-context"
   },
   {
+    "id": "ngc7331",
+    "title": "SN 2026aaiv (NGC 7331)",
+    "category": "dso",
+    "objectId": "ngc7331",
+    "region": null,
+    "cloudinaryId": "island-skies-astro/dso/ngc7331",
+    "altText": "NGC 7331 - SN 2026aaiv (NGC 7331)",
+    "objectName": "SN 2026aaiv (NGC 7331)",
+    "catalogId": "NGC 7331",
+    "ra": 22.6177806,
+    "dec": 34.4155278,
+    "constellation": "Pegasus",
+    "objectType": "galaxy",
+    "objectSubType": "Spiral Galaxy",
+    "filename": "ngc7331.jpg",
+    "width": 3902,
+    "height": 2654,
+    "sortOrder": 22,
+    "contextChart": "island-skies-astro/charts/ngc7331-context"
+  },
+  {
     "id": "ngc7380",
     "title": "Wizard Nebula",
     "category": "dso",
@@ -920,7 +941,7 @@
     "filename": "barnard72.jpg",
     "width": 3710,
     "height": 2538,
-    "sortOrder": 26,
+    "sortOrder": 27,
     "contextChart": "island-skies-astro/charts/barnard72-context"
   },
   {
@@ -941,7 +962,7 @@
     "filename": "leotriplet.jpg",
     "width": 4126,
     "height": 2810,
-    "sortOrder": 22,
+    "sortOrder": 23,
     "contextChart": "island-skies-astro/charts/leotriplet-context"
   },
   {
@@ -962,7 +983,7 @@
     "filename": "markarian.jpg",
     "width": 6500,
     "height": 5500,
-    "sortOrder": 25,
+    "sortOrder": 26,
     "contextChart": "island-skies-astro/charts/markarian-context"
   },
   {
