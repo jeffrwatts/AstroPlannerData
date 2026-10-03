@@ -6,6 +6,7 @@ Static file server for the AstroPlanner iOS/Android app, plus the notebooks that
 
 - `mobile/dso.json` — DSO catalog (`Config.DSO_URL`)
 - `mobile/vs.json` — Variable star / standard field catalog
+- `mobile/spectroscopy.json` — Spectroscopy star catalog (MK classes, carbon, Be, WR)
 - Images and `images.json` — hosted on Cloudinary, produced by `image_processing_web.ipynb` (`Config.IMAGES_URL` points at the Cloudinary-hosted `images.json`, not this repo)
 
 GitHub repo: https://github.com/jeffrwatts/AstroPlannerData
@@ -36,7 +37,7 @@ Generates `mobile/dso.json` from OpenNGC + SIMBAD fallback + astropy constellati
 **Cell editing guide:**
 | Cell | Purpose | Edit frequency |
 |------|---------|----------------|
-| Cell 1 (`objects` list) | Add new objects here — objectId, displayName, recommended | Every time a new object is added |
+| Cell 1 (`objects` list) | Add new objects here — objectId, displayName, lists | Every time a new object is added |
 | Cell 4 (`SUBTYPE_OVERRIDES`) | Fix misclassified subTypes from data sources | Occasionally |
 | Cell 5b (`MANUAL_DATA`) | Last-resort data for objects that can't be resolved | Rarely |
 
@@ -46,8 +47,25 @@ Generates `mobile/dso.json` from OpenNGC + SIMBAD fallback + astropy constellati
   - MANUAL_DATA is checked **before** SIMBAD so a partial SIMBAD result never overrides intentional manual data
 - Missing constellations are filled automatically from RA/Dec using `astropy.coordinates.get_constellation` (IAU boundaries)
 - `MANUAL_DATA` currently has entries for: `leotriplet`, `rhocomplex`
+- `lists` (replaced `recommended`): which app filter button(s) the object shows under — `"photography"` and/or `"spectroscopy"`, never empty. Objects not worth shooting are deleted from Cell 1, not kept with an empty list. DSOs never go on the Variables list (transforms use Landolt fields, not clusters).
+- `recommended` was removed from `dso.json` entirely; the app's `DsoResponse` must drop it (required field) before this feed is pushed.
+- astropy's `get_constellation` misspells Ophiuchus/Chamaeleon/Crux/Piscis Austrinus — `ASTROPY_CONSTELLATION_FIXES` (Cell 3) corrects them.
 
 **Workflow:** Edit Cell 1 → Run all cells → Commit `mobile/dso.json`
+
+---
+
+## spectroscopy_catalog.ipynb
+
+Generates `mobile/spectroscopy.json` (stars only, app type `SPECTROSCOPY_STAR`) for SA-100 slitless spectroscopy. See `specs/spectroscopy_json_spec.md`.
+
+- Cell 1 `stars`: `simbadId`, `displayName`, curated `subType` (O–M, Carbon, Be, Wolf-Rayet), optional `calibrationStar` / `spectralFeatures`.
+- One batched SIMBAD query (sp_type, V, B); `MANUAL_DATA` (Cell 4) overrides SIMBAD.
+- objectId collisions with `dso.json`/`vs.json` are a hard error; SIMBAD sp_type vs. subType mismatch is a warning only (η Cas, SIMBAD F9V, is intentionally grouped as G).
+- Cell 6c shows subType × season coverage. Known gaps: no spring O star, no spring/autumn Wolf-Rayet.
+- Spectroscopy DSOs are NOT here — they're `dso.json` rows with `"spectroscopy"` in `lists`.
+
+**Workflow:** Edit Cell 1 → Run all cells → Commit `mobile/spectroscopy.json`
 
 ---
 
@@ -93,7 +111,7 @@ Compares an AAVSO Extended-format report (single comparison star + single check 
 
 ## planner_eval.ipynb
 
-Prompt evaluation framework for the AstroPlanner imaging planner feature. See `planner_prompt_v2_spec.md` for the full prompt specification.
+Prompt evaluation framework for the AstroPlanner imaging planner feature. The live prompt is `SYSTEM_PROMPT` in AstroPlanner's `AnthropicService.kt` (the old `planner_prompt_v2_spec.md` was removed as out of date).
 
 - Uses `python-dotenv` — API key lives in `.env` (gitignored), never hardcoded
 - `.env` format: `ANTHROPIC_API_KEY="sk-ant-..."`

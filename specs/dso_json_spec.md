@@ -31,7 +31,7 @@ A JSON array of objects, one per deep-sky object.
     "type": "cluster",
     "subType": "Open Cluster",
     "constellation": "Perseus",
-    "recommended": true,
+    "lists": ["photography"],
     "angularSizeMajor": 14.4,
     "angularSizeMinor": null,
     "magnitude": 3.7
@@ -50,7 +50,7 @@ A JSON array of objects, one per deep-sky object.
 | `type` | string | yes | Coarse object category, must match AstroPlanner's `ObjectType` enum: `"galaxy"`, `"nebula"`, `"cluster"`, or `"star"`. Always derived from `subType` (see below) — never set independently. |
 | `subType` | string | yes | Finer classification, free text from a fixed vocabulary the notebook maintains (e.g. `"Spiral Galaxy"`, `"Emission Nebula"`, `"Open Cluster"`, `"Double Star"`). `type` is a many-to-one mapping of this field. |
 | `constellation` | string | no | IAU constellation full name (e.g. `"Perseus"`, `"Boötes"`). Falls back to an RA/Dec → IAU-boundary lookup (`astropy.coordinates.get_constellation`) when the data source doesn't supply one. Omit or `null` if unresolvable. |
-| `recommended` | boolean | yes | Whether this object should surface in AstroPlanner's "recommended" curated list. Set per-object in the notebook's input list (Cell 1), not derived from any external data. |
+| `lists` | string[] | yes | Which AstroPlanner filter(s) the object appears under. Non-empty; values are `"photography"` and/or `"spectroscopy"` (e.g. `["photography"]`, `["photography", "spectroscopy"]` for M57, `["spectroscopy"]` for a small planetary nebula only worth a spectrum). Set per-object in the notebook's Cell 1. The catalog only contains objects worth targeting, so there is no "not on any list" state; objects that aren't wanted are removed from the catalog instead. |
 | `angularSizeMajor` | number \| null | no | Apparent angular size (major axis) in **arcminutes**. `null` if unknown. |
 | `angularSizeMinor` | number \| null | no | Apparent angular size (minor axis) in **arcminutes**. `null` if unknown or the object has no meaningfully distinct minor axis (e.g. round/ambiguous objects). |
 | `magnitude` | number \| null | no | A single representative magnitude. `null` if unknown — several manually-curated multi-object groupings (e.g. `"leotriplet"`, `"markarian"`) have no single well-defined magnitude and are always `null` here. |
@@ -82,7 +82,34 @@ source classification is wrong or not the desired astrophotography framing
 it to `"Emission Nebula"` since that's the astrophotography subject).
 `type` is always re-derived from the (possibly overridden) `subType`.
 
+## Filter lists (`lists`)
+
+`lists` replaces the old `recommended` flag. AstroPlanner's Sky Planner
+filter buttons are **Photography**, **Variables**, and **Spectroscopy**:
+
+| Button | Shows |
+|---|---|
+| Photography | `dso.json` rows whose `lists` contains `"photography"`, plus planets (hard-coded in the app, always Photography only). |
+| Variables | `vs.json` rows only (`VARIABLE_STAR`, `STANDARD_FIELD`). DSOs never appear here; transforms use Landolt standard fields, not clusters. |
+| Spectroscopy | `dso.json` rows whose `lists` contains `"spectroscopy"`, plus `spectroscopy.json` stars (`SPECTROSCOPY_STAR`, see `spectroscopy_json_spec.md`). |
+
+An object can be on both DSO lists at once. Spectroscopy DSOs reuse their
+normal `dso.json` `objectId`; there is no separate spectroscopy copy of a DSO.
+
 ## What the app does with it (for context, not to implement in the notebook)
+
+- `recommended` is no longer in the feed. `DsoResponse.recommended` must be removed
+  (it is currently a required field, so an un-updated app fails to decode this feed
+  and, because `deleteSystemObjects` runs first, ends up with no DSOs).
+- Store `lists` on the object row (e.g. two boolean columns
+  `inPhotography`/`inSpectroscopy`, or the raw list as text) and drive the
+  Photography/Spectroscopy filter buttons from it, replacing `selectRecommended`.
+- **Single catalog refresh:** every row loaded from a feed has `userAdded = 0`.
+  `updateCatalog` fetches `dso.json`, `vs.json` and `spectroscopy.json` first,
+  then in one transaction runs `deleteSystemObjects` (`DELETE ... WHERE
+  userAdded = 0`) and re-inserts planets plus all three feeds. If any fetch
+  fails, nothing is deleted. Comparison stars and images are refreshed
+  separately.
 
 - Fetches the URL with a cache-busting query param, same pattern as
   `vs.json`/`images.json`.
@@ -95,6 +122,6 @@ it to `"Emission Nebula"` since that's the astrophotography subject).
 
 This file lives in `specs/` alongside the other data-model specs for the
 feeds served from `mobile/` in this repo: `vs_json_spec.md`,
-`images_json_spec.md`, `comp_stars_json_spec.md`. `field_check_android_spec.md`,
-`field_of_view_nasa_api_spec.md`, and `planner_prompt_v2_spec.md` are
+`images_json_spec.md`, `comp_stars_json_spec.md`, `spectroscopy_json_spec.md`.
+`field_check_android_spec.md` and `field_of_view_nasa_api_spec.md` are
 app/feature specs (not data models) and currently remain at the repo root.

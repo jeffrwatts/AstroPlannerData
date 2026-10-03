@@ -116,6 +116,6 @@ is intentional, not a data gap.
 
 This file lives in `specs/` alongside the other data-model specs for feeds
 this repo produces: `dso_json_spec.md`, `vs_json_spec.md`,
-`comp_stars_json_spec.md`. `field_check_android_spec.md`,
-`field_of_view_nasa_api_spec.md`, and `planner_prompt_v2_spec.md` are
+`comp_stars_json_spec.md`, `spectroscopy_json_spec.md`.
+`field_check_android_spec.md` and `field_of_view_nasa_api_spec.md` are
 app/feature specs (not data models) and remain at the repo root.
