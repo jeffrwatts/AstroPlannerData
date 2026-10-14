@@ -17,7 +17,7 @@
     "filename": "ic1318.jpg",
     "width": 6173,
     "height": 4145,
-    "sortOrder": 14,
+    "sortOrder": 16,
     "contextChart": "island-skies-astro/charts/ic1318-context"
   },
   {
@@ -122,7 +122,7 @@
     "filename": "ic410-tadpoles.jpg",
     "width": 4144,
     "height": 2822,
-    "sortOrder": 12,
+    "sortOrder": 13,
     "contextChart": "island-skies-astro/charts/ic410-context"
   },
   {
@@ -374,7 +374,7 @@
     "filename": "m31.jpg",
     "width": 6242,
     "height": 4173,
-    "sortOrder": 24,
+    "sortOrder": 26,
     "contextChart": "island-skies-astro/charts/m31-context"
   },
   {
@@ -395,7 +395,7 @@
     "filename": "m42.jpg",
     "width": 4130,
     "height": 2800,
-    "sortOrder": 19,
+    "sortOrder": 21,
     "contextChart": "island-skies-astro/charts/m42-context"
   },
   {
@@ -416,7 +416,7 @@
     "filename": "m42-2.jpg",
     "width": 6223,
     "height": 4148,
-    "sortOrder": 18,
+    "sortOrder": 20,
     "contextChart": "island-skies-astro/charts/m42-context"
   },
   {
@@ -437,7 +437,7 @@
     "filename": "m45.jpg",
     "width": 4415,
     "height": 2948,
-    "sortOrder": 17,
+    "sortOrder": 19,
     "contextChart": "island-skies-astro/charts/m45-context"
   },
   {
@@ -458,7 +458,7 @@
     "filename": "m51.jpg",
     "width": 4144,
     "height": 2822,
-    "sortOrder": 13,
+    "sortOrder": 14,
     "contextChart": "island-skies-astro/charts/m51-context"
   },
   {
@@ -479,7 +479,7 @@
     "filename": "m8.jpg",
     "width": 4129,
     "height": 2820,
-    "sortOrder": 16,
+    "sortOrder": 18,
     "contextChart": "island-skies-astro/charts/m8-context"
   },
   {
@@ -563,7 +563,7 @@
     "filename": "ngc1499.jpg",
     "width": 6232,
     "height": 4144,
-    "sortOrder": 15,
+    "sortOrder": 17,
     "contextChart": "island-skies-astro/charts/ngc1499-context"
   },
   {
@@ -605,7 +605,7 @@
     "filename": "ngc2237.jpg",
     "width": 5061,
     "height": 3379,
-    "sortOrder": 25,
+    "sortOrder": 27,
     "contextChart": "island-skies-astro/charts/ngc2237-context"
   },
   {
@@ -626,7 +626,7 @@
     "filename": "ngc2264.jpg",
     "width": 4160,
     "height": 2498,
-    "sortOrder": 9,
+    "sortOrder": 10,
     "contextChart": "island-skies-astro/charts/ngc2264-context"
   },
   {
@@ -647,7 +647,7 @@
     "filename": "ngc2359.jpg",
     "width": 4102,
     "height": 2794,
-    "sortOrder": 11,
+    "sortOrder": 12,
     "contextChart": "island-skies-astro/charts/ngc2359-context"
   },
   {
@@ -731,7 +731,7 @@
     "filename": "ngc4565.jpg",
     "width": 4130,
     "height": 2788,
-    "sortOrder": 20,
+    "sortOrder": 22,
     "contextChart": "island-skies-astro/charts/ngc4565-context"
   },
   {
@@ -840,6 +840,69 @@
     "contextChart": "island-skies-astro/charts/ngc7000-context"
   },
   {
+    "id": "ngc7000-hoo",
+    "title": "North America Nebula",
+    "category": "dso",
+    "objectId": "ngc7000",
+    "region": null,
+    "cloudinaryId": "island-skies-astro/dso/ngc7000-hoo",
+    "altText": "NGC 7000 - North America Nebula",
+    "objectName": "North America Nebula",
+    "catalogId": "NGC 7000",
+    "ra": 20.9880944,
+    "dec": 44.5287778,
+    "constellation": "Cygnus",
+    "objectType": "nebula",
+    "objectSubType": "HII Ionized region",
+    "filename": "ngc7000-hoo.jpg",
+    "width": 6237,
+    "height": 4158,
+    "sortOrder": null,
+    "contextChart": "island-skies-astro/charts/ngc7000-context"
+  },
+  {
+    "id": "ngc7000",
+    "title": "North America Nebula",
+    "category": "dso",
+    "objectId": "ngc7000",
+    "region": null,
+    "cloudinaryId": "island-skies-astro/dso/ngc7000",
+    "altText": "NGC 7000 - North America Nebula",
+    "objectName": "North America Nebula",
+    "catalogId": "NGC 7000",
+    "ra": 20.9880944,
+    "dec": 44.5287778,
+    "constellation": "Cygnus",
+    "objectType": "nebula",
+    "objectSubType": "HII Ionized region",
+    "filename": "ngc7000.jpg",
+    "width": 6094,
+    "height": 3933,
+    "sortOrder": 15,
+    "contextChart": "island-skies-astro/charts/ngc7000-context"
+  },
+  {
+    "id": "ngc7023",
+    "title": "Iris Nebula",
+    "category": "dso",
+    "objectId": "ngc7023",
+    "region": null,
+    "cloudinaryId": "island-skies-astro/dso/ngc7023",
+    "altText": "NGC 7023 - Iris Nebula",
+    "objectName": "Iris Nebula",
+    "catalogId": "NGC 7023",
+    "ra": 21.0265611,
+    "dec": 68.1695556,
+    "constellation": "Cepheus",
+    "objectType": "nebula",
+    "objectSubType": "Emission Nebula",
+    "filename": "ngc7023.jpg",
+    "width": 3750,
+    "height": 2700,
+    "sortOrder": 9,
+    "contextChart": "island-skies-astro/charts/ngc7023-context"
+  },
+  {
     "id": "ngc7293",
     "title": "Helix Nebula",
     "category": "dso",
@@ -878,7 +941,7 @@
     "filename": "ngc7331.jpg",
     "width": 3902,
     "height": 2654,
-    "sortOrder": 22,
+    "sortOrder": 24,
     "contextChart": "island-skies-astro/charts/ngc7331-context"
   },
   {
@@ -935,13 +998,13 @@
     "catalogId": "Barnard 72",
     "ra": 17.3941667,
     "dec": -23.695,
-    "constellation": "Ophiucus",
+    "constellation": "Ophiuchus",
     "objectType": "nebula",
     "objectSubType": "Dark Nebula",
     "filename": "barnard72.jpg",
     "width": 3710,
     "height": 2538,
-    "sortOrder": 27,
+    "sortOrder": 29,
     "contextChart": "island-skies-astro/charts/barnard72-context"
   },
   {
@@ -962,7 +1025,7 @@
     "filename": "leotriplet.jpg",
     "width": 4126,
     "height": 2810,
-    "sortOrder": 23,
+    "sortOrder": 25,
     "contextChart": "island-skies-astro/charts/leotriplet-context"
   },
   {
@@ -983,7 +1046,7 @@
     "filename": "markarian.jpg",
     "width": 6500,
     "height": 5500,
-    "sortOrder": 26,
+    "sortOrder": 28,
     "contextChart": "island-skies-astro/charts/markarian-context"
   },
   {
@@ -1006,6 +1069,27 @@
     "height": 4107,
     "sortOrder": 2,
     "contextChart": "island-skies-astro/charts/rhoophiuchi-context"
+  },
+  {
+    "id": "veilcomplex-2",
+    "title": "Veilcomplex",
+    "category": "dso",
+    "objectId": "veilcomplex",
+    "region": null,
+    "cloudinaryId": "island-skies-astro/dso/veilcomplex-2",
+    "altText": "veilcomplex - Veilcomplex",
+    "objectName": "Veilcomplex",
+    "catalogId": "veilcomplex",
+    "ra": null,
+    "dec": null,
+    "constellation": null,
+    "objectType": null,
+    "objectSubType": null,
+    "filename": "veilcomplex-2.jpg",
+    "width": 6240,
+    "height": 4160,
+    "sortOrder": null,
+    "contextChart": null
   },
   {
     "id": "veilcomplex",
@@ -1046,7 +1130,7 @@
     "filename": "whalehockey.jpg",
     "width": 4142,
     "height": 2817,
-    "sortOrder": 21,
+    "sortOrder": 23,
     "contextChart": "island-skies-astro/charts/whalehockey-context"
   },
   {

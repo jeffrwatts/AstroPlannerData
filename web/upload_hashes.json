@@ -150,7 +150,7 @@
   "charts/ngc7635-context": "e88b1fba88c86d24fcb1874f005af1d9",
   "charts/rhoophiuchi-context": "7b087ebb4a6c72cf3dd5ceb15210b92d",
   "charts/whalehockey-context": "b92e23a92fc8b04c6199fd7cbb901659",
-  "dso/ic1318": "3862297b30ad1e2a2b7f5d6cde747c96",
+  "dso/ic1318": "42bdd18cac07392d6c68208298acf73b",
   "chartgen/ic1318": "300f3bf4c9ca7fce4b1570d29fddd584",
   "charts/ic1318-context": "d24b672c8fba02060e45d03f84203005",
   "dso/ic1396": "1d745efd9bb8822a87eae0899891b89a",
@@ -160,5 +160,11 @@
   "charts/ic1396-context": "fbe87cfc317fa2be734718c21a5c046a",
   "dso/ngc7331": "22c5a1b243afbcd50e0421358981e662",
   "chartgen/ngc7331": "95169188ba5cf268dc5d8ddaa5cfb0d1",
-  "charts/ngc7331-context": "149efeb8fb8e395a6e54351d7749e7c2"
+  "charts/ngc7331-context": "149efeb8fb8e395a6e54351d7749e7c2",
+  "dso/ngc7000": "b0851d9238802df81b3516f8c147c042",
+  "dso/ngc7023": "c0c099b06388b6bf4b0cba5d4ede8cea",
+  "chartgen/ngc7023": "6da07f3ca44c78dfce0ee2b9d12ff127",
+  "charts/ngc7023-context": "5999fbef195e2e12003ffaeee784ba02",
+  "dso/ngc7000-hoo": "90479421db672b45fbf228a3e486e35c",
+  "dso/veilcomplex-2": "90476c8f630d7f964bd5ced00375609c"
 }
