@@ -112,8 +112,8 @@
     "subType":"UGSS+ZZ:",
     "constellation":"Pegasus",
     "magnitude":9.5,
-    "variablePeriodDays":0.3746,
-    "variableEpochJd":2452495.7999999998,
+    "variablePeriodDays":null,
+    "variableEpochJd":null,
     "variableEpochType":null
   },
   {
