@@ -660,6 +660,21 @@
     "magnitude":12.0
   },
   {
+    "displayName":"VDB 106",
+    "objectId":"vdb106",
+    "ra":16.4264216,
+    "dec":-23.4471708303,
+    "type":"nebula",
+    "subType":"Reflection Nebula",
+    "constellation":"Ophiuchus",
+    "lists":[
+      "photography"
+    ],
+    "angularSizeMajor":null,
+    "angularSizeMinor":null,
+    "magnitude":null
+  },
+  {
     "displayName":"Dolphin Head Nebula",
     "objectId":"sh2-308",
     "ra":6.9036233,

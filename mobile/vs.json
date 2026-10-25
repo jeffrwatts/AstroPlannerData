@@ -104,6 +104,19 @@
     "variableEpochType":"MAX"
   },
   {
+    "displayName":"RU Peg",
+    "objectId":"rupeg",
+    "type":"variable",
+    "ra":22.2340413,
+    "dec":12.70314,
+    "subType":"UGSS+ZZ:",
+    "constellation":"Pegasus",
+    "magnitude":9.5,
+    "variablePeriodDays":0.3746,
+    "variableEpochJd":2452495.7999999998,
+    "variableEpochType":null
+  },
+  {
     "displayName":"CzeV616",
     "objectId":"czev616",
     "type":"variable",
