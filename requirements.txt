@@ -1,0 +1,23 @@
+# Notebook dependencies. Install into the project venv with:
+#   uv venv && uv pip install -r requirements.txt
+
+# Jupyter
+jupyterlab>=4.6
+ipykernel>=7.4
+
+# Data / astronomy
+numpy>=2.5
+pandas>=3.1
+astropy>=8.0
+astroquery>=0.4.11     # SIMBAD (dso_catalog, spectroscopy_catalog)
+photutils              # field_check
+opencv-python          # field_check (cv2)
+
+# Images / plotting
+pillow>=13.0           # imported as PIL
+matplotlib>=3.11
+
+# Web / upload
+requests>=2.34
+cloudinary>=1.46       # image_processing_web
+python-dotenv>=1.2     # imported as dotenv; reads .env (Cloudinary credentials)
