@@ -1,78 +1,63 @@
 [
   {
-    "displayName":"Double Cluster (NGC 869 & 884)",
-    "objectId":"ngc869",
-    "ra":2.3162667,
-    "dec":57.11725,
-    "type":"cluster",
-    "subType":"Open Cluster",
+    "displayName":"NGC 5367",
+    "objectId":"ngc5367",
+    "ra":13.9621861,
+    "dec":-39.9784167,
+    "type":"nebula",
+    "subType":"Reflection Nebula",
+    "constellation":"Centaurus",
+    "lists":[
+      "photography"
+    ],
+    "angularSizeMajor":2.0,
+    "angularSizeMinor":2.0,
+    "magnitude":null
+  },
+  {
+    "displayName":"LBN 420 ('Comet of Dust')",
+    "objectId":"lbn420",
+    "ra":22.0833333,
+    "dec":42.7,
+    "type":"nebula",
+    "subType":"Emission Nebula",
+    "constellation":"Lacerta",
+    "lists":[
+      "photography"
+    ],
+    "angularSizeMajor":null,
+    "angularSizeMinor":null,
+    "magnitude":null
+  },
+  {
+    "displayName":"Barnard 3, IC 348 and LBN 749",
+    "objectId":"barn3ic348",
+    "ra":3.7419467,
+    "dec":32.1586,
+    "type":"nebula",
+    "subType":"Emission Nebula",
     "constellation":"Perseus",
     "lists":[
       "photography"
     ],
-    "angularSizeMajor":14.4,
-    "angularSizeMinor":null,
-    "magnitude":3.7
+    "angularSizeMajor":86.0,
+    "angularSizeMinor":58.0,
+    "magnitude":null
   },
   {
-    "displayName":"Leo Triplet",
-    "objectId":"leotriplet",
-    "ra":11.3308667,
-    "dec":13.28,
-    "type":"galaxy",
-    "subType":"Galaxy Group",
-    "constellation":"Leo",
+    "displayName":"Ghosts of Cass (IC59, IC63)",
+    "objectId":"ic59ic63",
+    "ra":0.9725,
+    "dec":60.9278,
+    "type":"nebula",
+    "subType":"Emission Nebula",
+    "constellation":"Cassiopeia",
     "lists":[
       "photography"
     ],
-    "angularSizeMajor":48.0,
+    "angularSizeMajor":40.0,
     "angularSizeMinor":30.0,
     "magnitude":null
-  },
-  {
-    "displayName":"Markarian's Chain",
-    "objectId":"markarian",
-    "ra":12.4438667,
-    "dec":12.9367,
-    "type":"galaxy",
-    "subType":"Galaxy Group",
-    "constellation":"Virgo",
-    "lists":[
-      "photography"
-    ],
-    "angularSizeMajor":90.0,
-    "angularSizeMinor":30.0,
-    "magnitude":null
-  },
-  {
-    "displayName":"Bode's and Cigar Galaxies",
-    "objectId":"m81m82",
-    "ra":9.9330533,
-    "dec":69.3292,
-    "type":"galaxy",
-    "subType":"Galaxy Group",
-    "constellation":"Ursa Major",
-    "lists":[
-      "photography"
-    ],
-    "angularSizeMajor":52.0,
-    "angularSizeMinor":35.0,
-    "magnitude":null
-  },
-  {
-    "displayName":"Hamburger Galaxy",
-    "objectId":"ngc3628",
-    "ra":11.3380472,
-    "dec":13.5896944,
-    "type":"galaxy",
-    "subType":"Barred Spiral Galaxy",
-    "constellation":"Leo",
-    "lists":[
-      "photography"
-    ],
-    "angularSizeMajor":11.04,
-    "angularSizeMinor":3.44,
-    "magnitude":9.45
   },
   {
     "displayName":"The Hydra Cluster (Abell 1060)",
@@ -87,21 +72,6 @@
     ],
     "angularSizeMajor":null,
     "angularSizeMinor":null,
-    "magnitude":null
-  },
-  {
-    "displayName":"M106 with NGC 4217",
-    "objectId":"m106ngc4217",
-    "ra":12.2883333,
-    "dec":47.1939,
-    "type":"galaxy",
-    "subType":"Galaxy Group",
-    "constellation":"Canes Venatici",
-    "lists":[
-      "photography"
-    ],
-    "angularSizeMajor":86.0,
-    "angularSizeMinor":58.0,
     "magnitude":null
   },
   {
@@ -120,7 +90,7 @@
     "magnitude":null
   },
   {
-    "displayName":"SN 2026aaiv (NGC 7331)",
+    "displayName":"NGC 7331 (with SN 2026aaiv)",
     "objectId":"ngc7331",
     "ra":22.6177806,
     "dec":34.4155278,
@@ -493,6 +463,21 @@
     "angularSizeMajor":60.0,
     "angularSizeMinor":60.0,
     "magnitude":6.5
+  },
+  {
+    "displayName":"Fish Head Nebula (in Heart)",
+    "objectId":"ngc896",
+    "ra":2.4243944,
+    "dec":62.0193611,
+    "type":"nebula",
+    "subType":"Emission Nebula",
+    "constellation":"Cassiopeia",
+    "lists":[
+      "photography"
+    ],
+    "angularSizeMajor":10.0,
+    "angularSizeMinor":10.0,
+    "magnitude":null
   },
   {
     "displayName":"Soul Nebula",
@@ -1262,7 +1247,37 @@
     "magnitude":8.52
   },
   {
-    "displayName":"M78",
+    "displayName":"Leo Triplet (M65, M66, Hamburger)",
+    "objectId":"leotriplet",
+    "ra":11.3308667,
+    "dec":13.28,
+    "type":"galaxy",
+    "subType":"Galaxy Group",
+    "constellation":"Leo",
+    "lists":[
+      "photography"
+    ],
+    "angularSizeMajor":48.0,
+    "angularSizeMinor":30.0,
+    "magnitude":null
+  },
+  {
+    "displayName":"Hamburger Galaxy",
+    "objectId":"ngc3628",
+    "ra":11.3380472,
+    "dec":13.5896944,
+    "type":"galaxy",
+    "subType":"Barred Spiral Galaxy",
+    "constellation":"Leo",
+    "lists":[
+      "photography"
+    ],
+    "angularSizeMajor":11.04,
+    "angularSizeMinor":3.44,
+    "magnitude":9.45
+  },
+  {
+    "displayName":"Caspar Ghost (M78)",
     "objectId":"m78",
     "ra":5.7793944,
     "dec":0.0793056,
@@ -1307,6 +1322,21 @@
     "magnitude":8.3
   },
   {
+    "displayName":"Bode's and Cigar Galaxies",
+    "objectId":"m81m82",
+    "ra":9.9330533,
+    "dec":69.3292,
+    "type":"galaxy",
+    "subType":"Galaxy Group",
+    "constellation":"Ursa Major",
+    "lists":[
+      "photography"
+    ],
+    "angularSizeMajor":52.0,
+    "angularSizeMinor":35.0,
+    "magnitude":null
+  },
+  {
     "displayName":"Southern Pinwheel Galaxy",
     "objectId":"m83",
     "ra":13.6169306,
@@ -1320,6 +1350,21 @@
     "angularSizeMajor":13.61,
     "angularSizeMinor":13.21,
     "magnitude":7.21
+  },
+  {
+    "displayName":"Markarian's Chain (M84, M86, etc..)",
+    "objectId":"markarian",
+    "ra":12.4438667,
+    "dec":12.9367,
+    "type":"galaxy",
+    "subType":"Galaxy Group",
+    "constellation":"Virgo",
+    "lists":[
+      "photography"
+    ],
+    "angularSizeMajor":90.0,
+    "angularSizeMinor":30.0,
+    "magnitude":null
   },
   {
     "displayName":"M88",
@@ -1395,6 +1440,21 @@
     "angularSizeMajor":8.45,
     "angularSizeMinor":4.91,
     "magnitude":8.59
+  },
+  {
+    "displayName":"M106 with NGC 4217",
+    "objectId":"m106ngc4217",
+    "ra":12.2883333,
+    "dec":47.1939,
+    "type":"galaxy",
+    "subType":"Galaxy Group",
+    "constellation":"Canes Venatici",
+    "lists":[
+      "photography"
+    ],
+    "angularSizeMajor":86.0,
+    "angularSizeMinor":58.0,
+    "magnitude":null
   },
   {
     "displayName":"Blue Snowball Nebula",
